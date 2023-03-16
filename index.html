@@ -1,0 +1,3585 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>yigido</title>
+    <meta name="author" content="yigido" />
+    <meta name="generator" content="Starfield Technologies; Go Daddy Website Builder 8.0.0000" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" sizes="57x57"
+        href="//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m" />
+    <link rel="apple-touch-icon" sizes="60x60"
+        href="//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:60,h:60,m" />
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:72,h:72,m" />
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:114,h:114,m" />
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:120,h:120,m" />
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:144,h:144,m" />
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:152,h:152,m" />
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="//img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:180,h:180,m" />
+    <meta property="og:url" content="https://yigithangoksu.com/" />
+    <meta property="og:site_name" content="GÖKSU" />
+    <meta property="og:title" content="GÖKSU" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.vimeocdn.com/video/default_1280x720?r=pad" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="GÖKSU" />
+    <meta name="twitter:image" content="https://i.vimeocdn.com/video/default_1280x720?r=pad" />
+    <meta name="twitter:image:alt" content="GÖKSU" />
+    <meta name="theme-color" content="#e8e3da" />
+    <style data-inline-fonts>
+        /* latin */
+        @font-face {
+            font-family: 'Yellowtail';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/yellowtail/v18/OZpGg_pnoDtINPfRIlLohlvHwQ.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LLPtLtfOm84TX.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LJftLtfOm84TX.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LLvtLtfOm84TX.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LL_tLtfOm84TX.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LIftLtfOm8w.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LLPtLtfOm84TX.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LJftLtfOm84TX.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LLvtLtfOm84TX.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LL_tLtfOm84TX.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lora';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIhMX1D_JOuMw_LIftLtfOm8w.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMwf7I_FMl_GW8g.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMw77I_FMl_GW8g.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMwX7I_FMl_GW8g.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMwT7I_FMl_GW8g.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMwr7I_FMl_E.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        /* cyrillic-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMwf7I_FMl_GW8g.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+        }
+
+        /* cyrillic */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMw77I_FMl_GW8g.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+        }
+
+        /* vietnamese */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMwX7I_FMl_GW8g.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+        }
+
+        /* latin-ext */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMwT7I_FMl_GW8g.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+
+        /* latin */
+        @font-face {
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url(https://img1.wsimg.com/gfonts/s/lora/v32/0QIvMX1D_JOuMwr7I_FMl_E.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+    <style>
+        .x {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            margin: 0;
+            box-sizing: border-box
+        }
+
+        .x *,
+        .x :after,
+        .x :before {
+            box-sizing: inherit
+        }
+
+        .x-el a[href^="mailto:"]:not(.x-el),
+        .x-el a[href^="tel:"]:not(.x-el) {
+            color: inherit;
+            font-size: inherit;
+            text-decoration: inherit
+        }
+
+        .x-el-article,
+        .x-el-aside,
+        .x-el-details,
+        .x-el-figcaption,
+        .x-el-figure,
+        .x-el-footer,
+        .x-el-header,
+        .x-el-hgroup,
+        .x-el-main,
+        .x-el-menu,
+        .x-el-nav,
+        .x-el-section,
+        .x-el-summary {
+            display: block
+        }
+
+        .x-el-audio,
+        .x-el-canvas,
+        .x-el-progress,
+        .x-el-video {
+            display: inline-block;
+            vertical-align: baseline
+        }
+
+        .x-el-audio:not([controls]) {
+            display: none;
+            height: 0
+        }
+
+        .x-el-template {
+            display: none
+        }
+
+        .x-el-a {
+            background-color: transparent;
+            color: inherit
+        }
+
+        .x-el-a:active,
+        .x-el-a:hover {
+            outline: 0
+        }
+
+        .x-el-abbr[title] {
+            border-bottom: 1px dotted
+        }
+
+        .x-el-b,
+        .x-el-strong {
+            font-weight: 700
+        }
+
+        .x-el-dfn {
+            font-style: italic
+        }
+
+        .x-el-mark {
+            background: #ff0;
+            color: #000
+        }
+
+        .x-el-small {
+            font-size: 80%
+        }
+
+        .x-el-sub,
+        .x-el-sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline
+        }
+
+        .x-el-sup {
+            top: -.5em
+        }
+
+        .x-el-sub {
+            bottom: -.25em
+        }
+
+        .x-el-img {
+            vertical-align: middle;
+            border: 0
+        }
+
+        .x-el-svg:not(:root) {
+            overflow: hidden
+        }
+
+        .x-el-figure {
+            margin: 0
+        }
+
+        .x-el-hr {
+            box-sizing: content-box;
+            height: 0
+        }
+
+        .x-el-pre {
+            overflow: auto
+        }
+
+        .x-el-code,
+        .x-el-kbd,
+        .x-el-pre,
+        .x-el-samp {
+            font-family: monospace, monospace;
+            font-size: 1em
+        }
+
+        .x-el-button,
+        .x-el-input,
+        .x-el-optgroup,
+        .x-el-select,
+        .x-el-textarea {
+            color: inherit;
+            font: inherit;
+            margin: 0
+        }
+
+        .x-el-button {
+            overflow: visible
+        }
+
+        .x-el-button,
+        .x-el-select {
+            text-transform: none
+        }
+
+        .x-el-button,
+        .x-el-input[type=button],
+        .x-el-input[type=reset],
+        .x-el-input[type=submit] {
+            -webkit-appearance: button;
+            cursor: pointer
+        }
+
+        .x-el-button[disabled],
+        .x-el-input[disabled] {
+            cursor: default
+        }
+
+        .x-el-button::-moz-focus-inner,
+        .x-el-input::-moz-focus-inner {
+            border: 0;
+            padding: 0
+        }
+
+        .x-el-input {
+            line-height: normal
+        }
+
+        .x-el-input[type=checkbox],
+        .x-el-input[type=radio] {
+            box-sizing: border-box;
+            padding: 0
+        }
+
+        .x-el-input[type=number]::-webkit-inner-spin-button,
+        .x-el-input[type=number]::-webkit-outer-spin-button {
+            height: auto
+        }
+
+        .x-el-input[type=search] {
+            -webkit-appearance: textfield;
+            box-sizing: content-box
+        }
+
+        .x-el-input[type=search]::-webkit-search-cancel-button,
+        .x-el-input[type=search]::-webkit-search-decoration {
+            -webkit-appearance: none
+        }
+
+        .x-el-textarea {
+            border: 0
+        }
+
+        .x-el-fieldset {
+            border: 1px solid silver;
+            margin: 0 2px;
+            padding: .35em .625em .75em
+        }
+
+        .x-el-legend {
+            border: 0;
+            padding: 0
+        }
+
+        .x-el-textarea {
+            overflow: auto
+        }
+
+        .x-el-optgroup {
+            font-weight: 700
+        }
+
+        .x-el-table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        .x-el-td,
+        .x-el-th {
+            padding: 0
+        }
+
+        .x {
+            -webkit-font-smoothing: antialiased
+        }
+
+        .x-el-hr {
+            border: 0
+        }
+
+        .x-el-fieldset,
+        .x-el-input,
+        .x-el-select,
+        .x-el-textarea {
+            margin-top: 0;
+            margin-bottom: 0
+        }
+
+        .x-el-fieldset,
+        .x-el-input[type=email],
+        .x-el-input[type=text],
+        .x-el-textarea {
+            width: 100%
+        }
+
+        .x-el-label {
+            vertical-align: middle
+        }
+
+        .x-el-input {
+            border-style: none;
+            padding: .5em;
+            vertical-align: middle
+        }
+
+        .x-el-select:not([multiple]) {
+            vertical-align: middle
+        }
+
+        .x-el-textarea {
+            line-height: 1.75;
+            padding: .5em
+        }
+
+        .x-el.d-none {
+            display: none !important
+        }
+
+        .sideline-footer {
+            margin-top: auto
+        }
+
+        .disable-scroll {
+            touch-action: none;
+            overflow: hidden;
+            position: fixed;
+            max-width: 100vw
+        }
+
+        @-webkit-keyframes loaderscale {
+            0% {
+                transform: scale(1);
+                opacity: 1
+            }
+
+            45% {
+                transform: scale(.1);
+                opacity: .7
+            }
+
+            80% {
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+        @keyframes loaderscale {
+            0% {
+                transform: scale(1);
+                opacity: 1
+            }
+
+            45% {
+                transform: scale(.1);
+                opacity: .7
+            }
+
+            80% {
+                transform: scale(1);
+                opacity: 1
+            }
+        }
+
+        .x-loader svg {
+            display: inline-block
+        }
+
+        .x-loader svg:first-child {
+            -webkit-animation: loaderscale .75s cubic-bezier(.2, .68, .18, 1.08) -.24s infinite;
+            animation: loaderscale .75s cubic-bezier(.2, .68, .18, 1.08) -.24s infinite
+        }
+
+        .x-loader svg:nth-child(2) {
+            -webkit-animation: loaderscale .75s cubic-bezier(.2, .68, .18, 1.08) -.12s infinite;
+            animation: loaderscale .75s cubic-bezier(.2, .68, .18, 1.08) -.12s infinite
+        }
+
+        .x-loader svg:nth-child(3) {
+            -webkit-animation: loaderscale .75s cubic-bezier(.2, .68, .18, 1.08) 0s infinite;
+            animation: loaderscale .75s cubic-bezier(.2, .68, .18, 1.08) 0s infinite
+        }
+
+        .x-icon>svg {
+            transition: transform .33s ease-in-out
+        }
+
+        .x-icon>svg.rotate-90 {
+            transform: rotate(-90deg)
+        }
+
+        .x-icon>svg.rotate90 {
+            transform: rotate(90deg)
+        }
+
+        .x-icon>svg.rotate-180 {
+            transform: rotate(-180deg)
+        }
+
+        .x-icon>svg.rotate180 {
+            transform: rotate(180deg)
+        }
+
+        .x-rt ol,
+        .x-rt ul {
+            text-align: left
+        }
+
+        .x-rt p {
+            margin: 0
+        }
+
+        .mte-inline-block {
+            display: inline-block
+        }
+
+        @media only screen and (min-device-width:1025px) {
+
+            :root select,
+            _::-webkit-full-page-media,
+            _:future {
+                font-family: sans-serif !important
+            }
+        }
+    </style>
+    <style>
+
+    </style>
+    <style data-glamor="cxs-default-sheet">
+        .x .c1-1 {
+            letter-spacing: normal
+        }
+
+        .x .c1-2 {
+            text-transform: none
+        }
+
+        .x .c1-3 {
+            background-color: rgb(255, 255, 255)
+        }
+
+        .x .c1-4 {
+            width: 100%
+        }
+
+        .x .c1-5>div {
+            position: relative
+        }
+
+        .x .c1-6>div {
+            overflow: hidden
+        }
+
+        .x .c1-7>div {
+            margin-top: auto
+        }
+
+        .x .c1-8>div {
+            margin-right: auto
+        }
+
+        .x .c1-9>div {
+            margin-bottom: auto
+        }
+
+        .x .c1-a>div {
+            margin-left: auto
+        }
+
+        .x .c1-b {
+            font-family: Lora, serif
+        }
+
+        .x .c1-c {
+            font-size: 16px
+        }
+
+        .x .c1-h {
+            background-color: rgb(22, 22, 22)
+        }
+
+        .x .c1-i {
+            padding-top: 0px
+        }
+
+        .x .c1-j {
+            padding-bottom: 0px
+        }
+
+        .x .c1-m .sticky-animate {
+            background-color: rgb(22, 22, 22)
+        }
+
+        .x .c1-n {
+            margin-left: auto
+        }
+
+        .x .c1-o {
+            margin-right: auto
+        }
+
+        .x .c1-p {
+            padding-left: 24px
+        }
+
+        .x .c1-q {
+            padding-right: 24px
+        }
+
+        .x .c1-r {
+            max-width: 100%
+        }
+
+        .x .c1-y {
+            padding-top: 8px
+        }
+
+        .x .c1-z {
+            padding-bottom: 8px
+        }
+
+        .x .c1-11 {
+            display: flex
+        }
+
+        .x .c1-12 {
+            align-items: center
+        }
+
+        .x .c1-13 {
+            flex-wrap: nowrap
+        }
+
+        .x .c1-14 {
+            justify-content: flex-start
+        }
+
+        .x .c1-15 {
+            text-align: center
+        }
+
+        .x .c1-16 {
+            width: 15%
+        }
+
+        .x .c1-17 {
+            letter-spacing: inherit
+        }
+
+        .x .c1-18 {
+            text-transform: inherit
+        }
+
+        .x .c1-19 {
+            text-decoration: none
+        }
+
+        .x .c1-1a {
+            word-wrap: break-word
+        }
+
+        .x .c1-1b {
+            overflow-wrap: break-word
+        }
+
+        .x .c1-1c {
+            cursor: pointer
+        }
+
+        .x .c1-1d {
+            border-top: 0px
+        }
+
+        .x .c1-1e {
+            border-right: 0px
+        }
+
+        .x .c1-1f {
+            border-bottom: 0px
+        }
+
+        .x .c1-1g {
+            border-left: 0px
+        }
+
+        .x .c1-1h {
+            color: rgb(247, 247, 247)
+        }
+
+        .x .c1-1i {
+            font-weight: inherit
+        }
+
+        .x .c1-1j:hover {
+            color: rgb(232, 227, 218)
+        }
+
+        .x .c1-1k:active {
+            color: rgb(232, 227, 218)
+        }
+
+        .x .c1-1l {
+            color: inherit
+        }
+
+        .x .c1-1m {
+            display: inline-block
+        }
+
+        .x .c1-1n {
+            vertical-align: top
+        }
+
+        .x .c1-1o {
+            padding-top: 6px
+        }
+
+        .x .c1-1p {
+            padding-right: 6px
+        }
+
+        .x .c1-1q {
+            padding-bottom: 6px
+        }
+
+        .x .c1-1r {
+            padding-left: 6px
+        }
+
+        .x .c1-1s {
+            width: 70%
+        }
+
+        .x .c1-1t {
+            font-family: 'Yellowtail', serif, system-ui
+        }
+
+        .x .c1-1u {
+            font-size: 19px
+        }
+
+        .x .c1-23 {
+            display: inline
+        }
+
+        .x .c1-24 {
+            color: rgb(232, 227, 218)
+        }
+
+        .x .c1-25:hover {
+            color: rgb(178, 171, 159)
+        }
+
+        .x .c1-26 {
+            position: relative
+        }
+
+        .x .c1-27 {
+            line-height: 1.2
+        }
+
+        .x .c1-28 {
+            margin-left: 0
+        }
+
+        .x .c1-29 {
+            margin-right: 0
+        }
+
+        .x .c1-2a {
+            margin-top: 0
+        }
+
+        .x .c1-2b {
+            margin-bottom: 0
+        }
+
+        .x .c1-2c {
+            padding-top: 24px
+        }
+
+        .x .c1-2d {
+            padding-bottom: 24px
+        }
+
+        .x .c1-2e {
+            padding: 0 !important
+        }
+
+        .x .c1-2f {
+            font-size: 32px
+        }
+
+        .x .c1-2g {
+            font-weight: 400
+        }
+
+        .x .c1-2m {
+            word-wrap: normal !important
+        }
+
+        .x .c1-2n {
+            overflow-wrap: normal !important
+        }
+
+        .x .c1-2o {
+            display: none
+        }
+
+        .x .c1-2p {
+            visibility: hidden
+        }
+
+        .x .c1-2q {
+            position: absolute
+        }
+
+        .x .c1-2r {
+            width: auto
+        }
+
+        .x .c1-2s {
+            overflow: visible
+        }
+
+        .x .c1-2t {
+            left: 0px
+        }
+
+        .x .c1-2u {
+            font-size: 36px
+        }
+
+        .x .c1-2z {
+            font-size: 25px
+        }
+
+        .x .c1-34 {
+            justify-content: space-between
+        }
+
+        .x .c1-36 {
+            width: 30%
+        }
+
+        .x .c1-37 {
+            justify-content: center
+        }
+
+        .x .c1-38 {
+            width: 40%
+        }
+
+        .x .c1-39 {
+            justify-content: flex-end
+        }
+
+        .x .c1-3a {
+            background-color: rgb(246, 246, 246)
+        }
+
+        .x .c1-3b {
+            position: fixed
+        }
+
+        .x .c1-3c {
+            top: 0px
+        }
+
+        .x .c1-3d {
+            height: 100%
+        }
+
+        .x .c1-3e {
+            overflow-y: auto
+        }
+
+        .x .c1-3f {
+            z-index: 10002
+        }
+
+        .x .c1-3g {
+            padding-top: 56px
+        }
+
+        .x .c1-3h {
+            -webkit-overflow-scrolling: touch
+        }
+
+        .x .c1-3i {
+            transform: translateX(-249vw)
+        }
+
+        .x .c1-3j {
+            overscroll-behavior: contain
+        }
+
+        .x .c1-3k {
+            box-shadow: none !important
+        }
+
+        .x .c1-3l {
+            transition: transform .3s ease-in-out
+        }
+
+        .x .c1-3m {
+            overflow: hidden
+        }
+
+        .x .c1-3n {
+            flex-direction: column
+        }
+
+        .x .c1-3p {
+            color: rgb(21, 21, 21)
+        }
+
+        .x .c1-3q {
+            vertical-align: middle
+        }
+
+        .x .c1-3r {
+            line-height: 1.3em
+        }
+
+        .x .c1-3s {
+            font-style: normal
+        }
+
+        .x .c1-3t {
+            top: 15px
+        }
+
+        .x .c1-3u {
+            right: 15px
+        }
+
+        .x .c1-3v {
+            font-size: 28px
+        }
+
+        .x .c1-3w {
+            left: 20px
+        }
+
+        .x .c1-3x {
+            z-index: 2
+        }
+
+        .x .c1-3y:hover {
+            color: rgb(117, 113, 104)
+        }
+
+        .x .c1-46 {
+            overflow-x: hidden
+        }
+
+        .x .c1-47 {
+            overscroll-behavior: none
+        }
+
+        .x .c1-48 {
+            top: 40px
+        }
+
+        .x .c1-4a {
+            -webkit-margin-before: 0
+        }
+
+        .x .c1-4b {
+            -webkit-margin-after: 0
+        }
+
+        .x .c1-4c {
+            -webkit-padding-start: 0
+        }
+
+        .x .c1-4d {
+            text-align: left
+        }
+
+        .x .c1-4e {
+            padding-left: 0
+        }
+
+        .x .c1-4f {
+            padding-right: 0
+        }
+
+        .x .c1-4g {
+            color: rgb(87, 87, 87)
+        }
+
+        .x .c1-4h {
+            display: block
+        }
+
+        .x .c1-4i {
+            border-color: rgba(176, 176, 176, 0.5)
+        }
+
+        .x .c1-4j {
+            border-bottom-width: 0px
+        }
+
+        .x .c1-4k {
+            border-bottom-style: solid
+        }
+
+        .x .c1-4l:last-child {
+            margin-bottom: 0
+        }
+
+        .x .c1-4m:last-child {
+            border-bottom: 0
+        }
+
+        .x .c1-4n {
+            padding-top: 16px
+        }
+
+        .x .c1-4o {
+            padding-bottom: 16px
+        }
+
+        .x .c1-4p {
+            padding-left: 40px
+        }
+
+        .x .c1-4q {
+            min-width: 200px
+        }
+
+        .x .c1-4r>span {
+            border-bottom-style: solid
+        }
+
+        .x .c1-4s>span {
+            border-bottom-width: 1px
+        }
+
+        .x .c1-4t>span {
+            border-color: rgb(142, 136, 126)
+        }
+
+        .x .c1-4u>span {
+            padding-bottom: 2px
+        }
+
+        .x .c1-4v {
+            font-size: 22px
+        }
+
+        .x .c1-4w {
+            font-weight: 700
+        }
+
+        .x .c1-4x:hover>span {
+            border-color: rgb(142, 136, 126)
+        }
+
+        .x .c1-4y:hover {
+            color: rgb(66, 64, 58)
+        }
+
+        .x .c1-4z:active {
+            color: rgb(117, 113, 104)
+        }
+
+        .x .c1-57>span {
+            border-color: transparent
+        }
+
+        .x .c1-59 {
+            height: auto
+        }
+
+        .x .c1-5a {
+            padding-bottom: 75.00%
+        }
+
+        .x .c1-5b {
+            pointer-events: none
+        }
+
+        .x .c1-5d {
+            bottom: 0
+        }
+
+        .x .c1-5e {
+            z-index: unset
+        }
+
+        .x .c1-5f {
+            aspect-ratio: auto
+        }
+
+        .x .c1-5g {
+            border-radius: 0px
+        }
+
+        .x .c1-5l {
+            padding-bottom: 56px
+        }
+
+        .x .c1-5o {
+            box-sizing: border-box
+        }
+
+        .x .c1-5p {
+            flex-direction: row
+        }
+
+        .x .c1-5q {
+            flex-wrap: wrap
+        }
+
+        .x .c1-5r {
+            margin-right: -12px
+        }
+
+        .x .c1-5s {
+            margin-left: -12px
+        }
+
+        .x .c1-5x {
+            flex-grow: 1
+        }
+
+        .x .c1-5y {
+            flex-shrink: 1
+        }
+
+        .x .c1-5z {
+            flex-basis: 0%
+        }
+
+        .x .c1-60 {
+            padding-right: 12px
+        }
+
+        .x .c1-61 {
+            padding-left: 12px
+        }
+
+        .x .c1-68 {
+            margin-bottom: -24px
+        }
+
+        .x .c1-6a {
+            flex-basis: 100%
+        }
+
+        .x .c1-6b {
+            flex: 1
+        }
+
+        .x .c1-6g {
+            aspect-ratio: 0.8449131513647643 / 1
+        }
+
+        .x .c1-6i> :nth-child(n) {
+            margin-bottom: 24px
+        }
+
+        .x .c1-6j> :last-child {
+            margin-bottom: 0 !important
+        }
+
+        .x .c1-6k {
+            color: rgb(64, 64, 64)
+        }
+
+        .x .c1-6l {
+            line-height: 1.25
+        }
+
+        .x .c1-6m {
+            white-space: pre-line
+        }
+
+        .x .c1-6n {
+            display: inline-flex
+        }
+
+        .x .c1-6o {
+            align-items: baseline
+        }
+
+        .x .c1-6p {
+            border-color: currentColor
+        }
+
+        .x .c1-6q {
+            border-bottom-width: 2px
+        }
+
+        .x .c1-6r {
+            border-style: solid
+        }
+
+        .x .c1-6s {
+            width: 32px
+        }
+
+        .x .c1-6t {
+            margin-right: 16px
+        }
+
+        .x .c1-6u {
+            top: -.4em
+        }
+
+        .x .c1-6v {
+            line-height: 1.8
+        }
+
+        .x .c1-6w a:not([data-ux]) {
+            color: inherit
+        }
+
+        .x .c1-6x a:not([data-ux]) {
+            border-bottom-style: solid
+        }
+
+        .x .c1-6y a:not([data-ux]) {
+            border-bottom-width: 1px
+        }
+
+        .x .c1-6z a:not([data-ux]) {
+            border-color: rgb(232, 227, 218)
+        }
+
+        .x .c1-70 a:not([data-ux]) {
+            padding-bottom: 2px
+        }
+
+        .x .c1-71 a:not([data-ux]) {
+            text-decoration: none
+        }
+
+        .x .c1-72 a:not([data-ux]) {
+            font-size: inherit
+        }
+
+        .x .c1-73 {
+            line-height: 1.4
+        }
+
+        .x .c1-74 {
+            margin-bottom: 40px
+        }
+
+        .x .c1-75 {
+            font-size: 26px
+        }
+
+        .x .c1-7a {
+            font-size: unset
+        }
+
+        .x .c1-7b {
+            font-family: unset
+        }
+
+        .x .c1-7c {
+            letter-spacing: unset
+        }
+
+        .x .c1-7d {
+            text-transform: unset
+        }
+
+        .x .c1-7i {
+            align-items: flex-start
+        }
+
+        .x .c1-7j>* {
+            max-width: 100%
+        }
+
+        .x .c1-7m {
+            order: -1
+        }
+
+        .x .c1-7n {
+            z-index: 1
+        }
+
+        .x .c1-7o {
+            aspect-ratio: 1.33 / 1
+        }
+
+        .x .c1-7s> :nth-child(n) {
+            margin-bottom: 0px
+        }
+
+        .x .c1-7v {
+            width: inherit
+        }
+
+        .x .c1-7w {
+            text-align: inherit
+        }
+
+        .x .c1-7x {
+            align-self: inherit
+        }
+
+        .x .c1-7y {
+            font-size: 18px
+        }
+
+        .x .c1-84 {
+            margin-bottom: 24px
+        }
+
+        .x .c1-87>p>ol {
+            text-align: left
+        }
+
+        .x .c1-88>p>ol {
+            display: block
+        }
+
+        .x .c1-89>p>ol {
+            padding-left: 1.3em
+        }
+
+        .x .c1-8a>p>ol {
+            margin-left: 16px
+        }
+
+        .x .c1-8b>p>ol {
+            margin-right: 16px
+        }
+
+        .x .c1-8c>p>ol {
+            margin-top: auto
+        }
+
+        .x .c1-8d>p>ol {
+            margin-bottom: auto
+        }
+
+        .x .c1-8e>p>ul {
+            text-align: left
+        }
+
+        .x .c1-8f>p>ul {
+            display: block
+        }
+
+        .x .c1-8g>p>ul {
+            padding-left: 1.3em
+        }
+
+        .x .c1-8h>p>ul {
+            margin-left: 16px
+        }
+
+        .x .c1-8i>p>ul {
+            margin-right: 16px
+        }
+
+        .x .c1-8j>p>ul {
+            margin-top: auto
+        }
+
+        .x .c1-8k>p>ul {
+            margin-bottom: auto
+        }
+
+        .x .c1-8l>ul {
+            text-align: left
+        }
+
+        .x .c1-8m>ul {
+            display: block
+        }
+
+        .x .c1-8n>ul {
+            padding-left: 1.3em
+        }
+
+        .x .c1-8o>ul {
+            margin-left: 16px
+        }
+
+        .x .c1-8p>ul {
+            margin-right: 16px
+        }
+
+        .x .c1-8q>ul {
+            margin-top: auto
+        }
+
+        .x .c1-8r>ul {
+            margin-bottom: auto
+        }
+
+        .x .c1-8s>ol {
+            text-align: left
+        }
+
+        .x .c1-8t>ol {
+            display: block
+        }
+
+        .x .c1-8u>ol {
+            padding-left: 1.3em
+        }
+
+        .x .c1-8v>ol {
+            margin-left: 16px
+        }
+
+        .x .c1-8w>ol {
+            margin-right: 16px
+        }
+
+        .x .c1-8x>ol {
+            margin-top: auto
+        }
+
+        .x .c1-8y>ol {
+            margin-bottom: auto
+        }
+
+        .x .c1-8z {
+            color: rgb(164, 164, 164)
+        }
+
+        .x .c1-90 {
+            font-size: inherit !important
+        }
+
+        .x .c1-91 {
+            line-height: inherit
+        }
+
+        .x .c1-92 {
+            font-style: italic
+        }
+
+        .x .c1-93 {
+            text-decoration: line-through
+        }
+
+        .x .c1-94 {
+            text-decoration: underline
+        }
+
+        .x .c1-95 {
+            border-width: 0 !important
+        }
+
+        .x .c1-96 {
+            [object -object]: 0px
+        }
+
+        .x .c1-97 {
+            color: rgb(27, 27, 27)
+        }
+
+        .x .c1-99 {
+            padding-left: none
+        }
+
+        .x .c1-9a {
+            padding-right: none
+        }
+
+        .x .c1-9b {
+            row-gap: 0px
+        }
+
+        .x .c1-9c {
+            column-gap: 0px
+        }
+
+        .x .c1-9d [data-typography] {
+            color: inherit
+        }
+
+        .x .c1-9e {
+            color: rgb(122, 118, 109)
+        }
+
+        .x .c1-9f:hover {
+            color: rgb(73, 70, 65)
+        }
+
+        .x .c1-9g:active {
+            color: rgb(50, 48, 44)
+        }
+
+        .x .c1-9h {
+            margin-left: 8px
+        }
+
+        .x .c1-9i {
+            margin-right: 8px
+        }
+
+        .x .c1-9j {
+            margin-bottom: 8px
+        }
+
+        .x .c1-9u {
+            flex-grow: 3
+        }
+
+        .x .c1-9x {
+            color: rgb(169, 169, 169)
+        }
+
+        .x .c1-9z {
+            margin-top: 24px
+        }
+
+        .x .c1-a2 {
+            right: 0
+        }
+
+        .x .c1-a3 {
+            z-index: 10003
+        }
+
+        .x .c1-a4 {
+            background-color: rgba(0, 0, 0, 0.6)
+        }
+
+        .x .c1-ai {
+            box-shadow: 0 4px 12px 0 rgba(117, 117, 117, 0.4)
+        }
+
+        .x .c1-aj {
+            max-height: 90vh
+        }
+
+        .x .c1-ak {
+            height: max-content
+        }
+
+        .x .c1-al {
+            border-radius: 12px
+        }
+
+        .x .c1-am {
+            max-width: 515px
+        }
+
+        .x .c1-b4 {
+            padding-left: 16px
+        }
+
+        .x .c1-b5 {
+            padding-right: 16px
+        }
+
+        .x .c1-b6 {
+            padding-top: 4px
+        }
+
+        .x .c1-b7 {
+            padding-right: 4px
+        }
+
+        .x .c1-b8 {
+            padding-bottom: 4px
+        }
+
+        .x .c1-b9 {
+            padding-left: 4px
+        }
+
+        .x .c1-ba {
+            border-radius: 50%
+        }
+
+        .x .c1-bb {
+            height: 22px
+        }
+
+        .x .c1-bc {
+            width: 22px
+        }
+
+        .x .c1-bd {
+            align-self: center
+        }
+
+        .x .c1-be>*:not(:last-child) {
+            margin-bottom: 0px
+        }
+
+        .x .c1-bi {
+            aspect-ratio: 2.2 / 1
+        }
+
+        .x .c1-bj>*:not(:last-child) {
+            margin-bottom: 16px
+        }
+
+        .x .c1-bk {
+            padding-top: 32px
+        }
+
+        .x .c1-bl {
+            padding-right: 32px
+        }
+
+        .x .c1-bm {
+            padding-bottom: 32px
+        }
+
+        .x .c1-bn {
+            padding-left: 32px
+        }
+
+        .x .c1-bo a:not([data-ux]) {
+            border-color: rgb(150, 144, 133)
+        }
+
+        .x .c1-bp {
+            color: rgb(94, 94, 94)
+        }
+
+        .x .c1-bq {
+            padding-right: 40px
+        }
+
+        .x .c1-br {
+            min-height: 56px
+        }
+
+        .x .c1-bs {
+            border-radius: 48px
+        }
+
+        .x .c1-bt {
+            background-color: transparent
+        }
+
+        .x .c1-bu {
+            color: rgb(153, 148, 138)
+        }
+
+        .x .c1-bv {
+            border-top-width: 1px
+        }
+
+        .x .c1-bw {
+            border-right-width: 1px
+        }
+
+        .x .c1-bx {
+            border-bottom-width: 1px
+        }
+
+        .x .c1-by {
+            border-left-width: 1px
+        }
+
+        .x .c1-bz {
+            text-shadow: none
+        }
+
+        .x .c1-c0:hover {
+            color: rgb(28, 27, 27)
+        }
+
+        .x .c1-c1:hover {
+            background-color: rgb(231, 226, 216)
+        }
+
+        .x .c1-c2:hover {
+            border-color: rgb(231, 226, 216)
+        }
+
+        .x .c1-c4 {
+            z-index: 10000
+        }
+
+        .x .c1-c5 {
+            background-color: rgb(232, 227, 218)
+        }
+
+        .x .c1-c6 {
+            transition: all 1s ease-in
+        }
+
+        .x .c1-c7 {
+            box-shadow: 0 2px 6px 0px rgba(0, 0, 0, 0.3)
+        }
+
+        .x .c1-c8 {
+            contain: content
+        }
+
+        .x .c1-c9 {
+            bottom: -500px
+        }
+
+        .x .c1-cf {
+            color: rgb(1, 1, 1)
+        }
+
+        .x .c1-cg a:not([data-ux]) {
+            border-color: rgb(124, 119, 110)
+        }
+
+        .x .c1-ch {
+            max-height: 300px
+        }
+
+        .x .c1-ci {
+            color: rgb(73, 71, 70)
+        }
+
+        .x .c1-ck {
+            margin-bottom: 4px
+        }
+
+        .x .c1-cl {
+            word-break: break-word
+        }
+
+        .x .c1-cm {
+            flex-basis: 50%
+        }
+
+        .x .c1-cn {
+            min-height: 40px
+        }
+
+        .x .c1-co {
+            color: rgb(22, 22, 22)
+        }
+
+        .x .c1-cp:nth-child(2) {
+            margin-left: 24px
+        }
+
+        .x .c1-cq:hover {
+            color: rgb(219, 219, 219)
+        }
+
+        .x .c1-cr:hover {
+            background-color: rgb(22, 22, 22)
+        }
+
+        .x .c1-cs:hover {
+            border-color: rgb(22, 22, 22)
+        }
+
+        .x .c1-ct {
+            right: 24px
+        }
+
+        .x .c1-cu {
+            bottom: 24px
+        }
+
+        .x .c1-cv {
+            z-index: 9999
+        }
+
+        .x .c1-cw {
+            width: 65px
+        }
+
+        .x .c1-cx {
+            height: 65px
+        }
+
+        .x .c1-cz {
+            background-color: rgb(231, 226, 216)
+        }
+
+        .x .c1-d0 {
+            box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.25)
+        }
+
+        .x .c1-d1 {
+            transform: translateZ(0)
+        }
+
+        .x .c1-d2 {
+            color: rgb(28, 27, 27)
+        }
+    </style>
+    <style data-glamor="cxs-xs-sheet">
+        @media (max-width: 767px) {
+            .x .c1-k {
+                padding-top: 0px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-l {
+                padding-bottom: 0px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-1v {
+                width: 100%
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-1w {
+                display: flex
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-1x {
+                justify-content: center
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-2h {
+                max-width: 100%
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-50 {
+                font-weight: 400
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-58 {
+                margin-top: 0px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-5c {
+                display: block
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-5h {
+                display: none
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-5m {
+                padding-top: 40px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-5n {
+                padding-bottom: 40px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-6h {
+                height: calc((100vw - 48px)/0.8449131513647643)
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-7k> :nth-child(n) {
+                margin-bottom: 24px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-7l> :last-child {
+                margin-bottom: 0 !important
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-7p {
+                height: calc((100vw - 48px)/1.33)
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-an {
+                position: relative
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-ao {
+                flex-direction: column
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-ap {
+                background-color: rgb(255, 255, 255)
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-aq {
+                box-shadow: 0 4px 12px 0 rgba(117, 117, 117, 0.4)
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-ar {
+                padding-bottom: 16px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-as {
+                max-height: 90vh
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-at {
+                width: auto
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-au {
+                border-radius: 12px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-av {
+                margin-top: 16px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-aw {
+                margin-right: 16px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-ax {
+                margin-bottom: 16px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-ay {
+                margin-left: 16px
+            }
+        }
+
+        @media (max-width: 767px) {
+            .x .c1-az {
+                max-width: 90vw
+            }
+        }
+    </style>
+    <style data-glamor="cxs-sm-sheet">
+        @media (min-width: 768px) {
+            .x .c1-d {
+                font-size: 16px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-s {
+                width: 100%
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .x .c1-1y {
+                width: 100%
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-1z {
+                font-size: 19px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-2i {
+                font-size: 35px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-2v {
+                font-size: 43px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-30 {
+                font-size: 25px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-3z {
+                font-size: 30px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-51 {
+                font-size: 22px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-5i>div {
+                max-width: 100%
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-5t {
+                margin-top: 0
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-5u {
+                margin-right: -24px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-5v {
+                margin-bottom: 0
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-5w {
+                margin-left: -24px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-62 {
+                padding-top: 0
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-63 {
+                padding-right: 24px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-64 {
+                padding-bottom: 0
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-65 {
+                padding-left: 24px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-69 {
+                margin-bottom: -48px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-6c {
+                padding-bottom: 48px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-76 {
+                font-size: 26px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-7e {
+                flex-basis: 50%
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-7f {
+                max-width: 50%
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .x .c1-7t {
+                display: block
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-7z {
+                position: absolute
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-80 {
+                font-size: 18px
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .x .c1-86 {
+                position: relative
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-9k {
+                margin-left: 16px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-9l {
+                margin-right: 16px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-a5 {
+                transform: none
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-a6 {
+                max-width: 600px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-a7 {
+                margin-top: 24px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-a8 {
+                margin-bottom: 24px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-a9 {
+                margin-left: auto
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-aa {
+                margin-right: auto
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-ab {
+                display: flex
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-ac {
+                align-items: center
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-ad {
+                pointer-events: none
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-ae {
+                justify-content: center
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-af:before {
+                display: block
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-ag:before {
+                height: 90vh
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-ah:before {
+                content: ""
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-b0 {
+                pointer-events: auto
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-b1 {
+                border-radius: 12px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-b2 {
+                max-width: 515px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-bf {
+                padding-left: 0px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-bg {
+                padding-right: 0px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-c3 {
+                width: auto
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-ca {
+                width: 400px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-cb {
+                max-height: 500px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-cc {
+                border-radius: 7px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-cd {
+                margin-right: 24px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-ce {
+                margin-left: 24px
+            }
+        }
+
+        @media (min-width: 768px) {
+            .x .c1-cj {
+                max-height: 200px
+            }
+        }
+    </style>
+    <style data-glamor="cxs-md-sheet">
+        @media (min-width: 1024px) {
+            .x .c1-e {
+                font-size: 16px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-t {
+                width: 984px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-u {
+                padding-top: 24px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-v {
+                padding-bottom: 24px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-10 {
+                display: none
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-20 {
+                font-size: 19px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-2j {
+                font-size: 35px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-2w {
+                font-size: 43px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-31 {
+                font-size: 25px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-35 {
+                display: flex
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-3o {
+                max-width: 400px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-40 {
+                top: 80px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-41 {
+                left: unset
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-42 {
+                right: 40px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-43 {
+                font-size: 30px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-49 {
+                padding-top: 72px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-52 {
+                min-width: 300px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-53 {
+                padding-left: 56px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-54 {
+                font-size: 22px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-5j>div {
+                max-width: 984px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-66 {
+                flex-basis: 125%
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-67 {
+                max-width: 125%
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-6d {
+                flex-basis: 50%
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-6e {
+                max-width: 50%
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-6f {
+                flex: 1
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-77 {
+                font-size: 26px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-7g {
+                flex-basis: 33.33333333333333%
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-7h {
+                max-width: 33.33333333333333%
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-7q {
+                width: 365px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-7u {
+                display: block
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-81 {
+                font-size: 18px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-85 {
+                position: relative
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-98 {
+                margin-bottom: 0px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9m {
+                width: 48px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9n {
+                height: 48px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9o {
+                margin-left: 24px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9p {
+                margin-right: 24px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9q {
+                padding-top: 0px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9r {
+                padding-right: 0px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9s {
+                padding-bottom: 0px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9t {
+                padding-left: 0px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9v {
+                flex-basis: 0%
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9w {
+                max-width: none
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-9y {
+                text-align: left
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-a0 {
+                text-align: right
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-a1 {
+                margin-top: 0
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-b3 {
+                max-width: 515px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-bh {
+                height: 234px
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .x .c1-cy {
+                z-index: 9999
+            }
+        }
+    </style>
+    <style data-glamor="cxs-lg-sheet">
+        @media (min-width: 1280px) {
+            .x .c1-f {
+                font-size: 16px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-w {
+                width: 1160px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-21 {
+                font-size: 19px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-2k {
+                font-size: 36px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-2x {
+                font-size: 50px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-32 {
+                font-size: 25px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-44 {
+                font-size: 32px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-55 {
+                font-size: 22px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-5k>div {
+                max-width: 1160px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-78 {
+                font-size: 26px
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-7r {
+                width: 100%
+            }
+        }
+
+        @media (min-width: 1280px) {
+            .x .c1-82 {
+                font-size: 18px
+            }
+        }
+    </style>
+    <style data-glamor="cxs-xl-sheet">
+        @media (min-width: 1536px) {
+            .x .c1-g {
+                font-size: 18px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-x {
+                width: 1280px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-22 {
+                font-size: 21px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-2l {
+                font-size: 41px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-2y {
+                font-size: 55px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-33 {
+                font-size: 28px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-45 {
+                font-size: 36px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-56 {
+                font-size: 24px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-79 {
+                font-size: 29px
+            }
+        }
+
+        @media (min-width: 1536px) {
+            .x .c1-83 {
+                font-size: 20px
+            }
+        }
+    </style>
+    <style>
+        .page-inner {
+            background-color: rgb(22, 22, 22);
+            min-height: 100vh;
+        }
+    </style>
+    <style>
+        .grecaptcha-badge {
+            visibility: hidden;
+        }
+    </style>
+    <script>"use strict";
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }</script>
+</head>
+
+<body class="x  x-fonts-yellowtail">
+    <div id="layout-08-bc-4-b-76-758-e-4-e-55-9027-34207345987-f"
+        class="layout layout-layout layout-layout-layout-26 locale-tr-TR lang-tr">
+        <div data-ux="Page" id="page-107696"
+            class="x-el x-el-div x-el c1-1 c1-2 c1-3 c1-4 c1-5 c1-6 c1-7 c1-8 c1-9 c1-a c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+            <div data-ux="Block" class="x-el x-el-div page-inner c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                <div id="dbe43833-d2b0-4397-94f1-99b9acaca707" class="widget widget-header widget-header-header-9">
+                    <div data-ux="Header" role="main" data-aid="HEADER_WIDGET" id="n-107697"
+                        class="x-el x-el-div x-el x-el c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-h c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                        <div>
+                            <section data-ux="Section" data-aid="HEADER_SECTION"
+                                class="x-el x-el-section c1-1 c1-2 c1-h c1-i c1-j c1-b c1-c c1-k c1-l c1-d c1-e c1-f c1-g">
+                                <div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                    <div id="header_stickynav-anchor107700"></div>
+                                    <div data-ux="Block" data-stickynav-wrapper="true"
+                                        class="x-el x-el-div c1-1 c1-2 c1-m c1-b c1-c c1-d c1-e c1-f c1-g">
+                                        <div data-ux="Block" data-stickynav="true" id="header_stickynav107699"
+                                            class="x-el x-el-div c1-1 c1-2 c1-h c1-b c1-c c1-d c1-e c1-f c1-g">
+                                            <nav data-ux="Container"
+                                                class="x-el x-el-nav c1-1 c1-2 c1-n c1-o c1-p c1-q c1-r c1-i c1-j c1-b c1-c c1-s c1-d c1-t c1-u c1-v c1-e c1-w c1-f c1-x c1-g">
+                                                <nav data-ux="Block"
+                                                    class="x-el x-el-nav c1-1 c1-2 c1-y c1-z c1-b c1-c c1-d c1-10 c1-e c1-f c1-g">
+                                                    <div data-ux="Block"
+                                                        class="x-el x-el-div c1-1 c1-2 c1-11 c1-12 c1-13 c1-14 c1-15 c1-y c1-z c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                        <div data-ux="Block"
+                                                            class="x-el x-el-div c1-1 c1-2 c1-16 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                            <div data-ux="Element" id="bs-1"
+                                                                class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                                <a rel="" role="button" aria-haspopup="menu"
+                                                                    data-ux="LinkDropdown" data-toggle-ignore="true"
+                                                                    id="107701" aria-expanded="false"
+                                                                    toggleId="n-107697-navId-mobile" icon="hamburger"
+                                                                    data-edit-interactive="true"
+                                                                    data-aid="HAMBURGER_MENU_LINK"
+                                                                    aria-label="Hamburger Site Navigation Icon" href="#"
+                                                                    data-typography="LinkAlpha"
+                                                                    class="x-el x-el-a c1-17 c1-18 c1-19 c1-1a c1-1b c1-11 c1-1c c1-12 c1-14 c1-1d c1-1e c1-1f c1-1g c1-1h c1-b c1-c c1-1i c1-1j c1-1k c1-d c1-10 c1-e c1-f c1-g"
+                                                                    data-tccl="ux2.HEADER.header9.Section.Default.Link.Dropdown.107702.click,click"><svg
+                                                                        viewBox="0 0 24 24" fill="currentColor"
+                                                                        width="40px" height="40px"
+                                                                        data-ux="IconHamburger"
+                                                                        class="x-el x-el-svg c1-1 c1-2 c1-1l c1-1m c1-1n c1-1o c1-1p c1-1q c1-1r c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M19 8H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2zm0 5.097H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2zm0 5.25H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2z">
+                                                                        </path>
+                                                                    </svg></a>
+                                                            </div>
+                                                        </div>
+                                                        <div data-ux="Block"
+                                                            class="x-el x-el-div c1-1 c1-2 c1-1s c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                            <div data-ux="Block" data-aid="HEADER_LOGO_RENDERED"
+                                                                class="x-el x-el-div c1-1m c1-1t c1-r c1-1u c1-1v c1-1w c1-1x c1-1y c1-1z c1-20 c1-21 c1-22">
+                                                                <a rel="" role="link" aria-haspopup="menu"
+                                                                    data-ux="Link"
+                                                                    data-page="28e6dc92-3bec-438c-8d0d-75c251def48c"
+                                                                    title="GÖKSU" href="/" data-typography="LinkAlpha"
+                                                                    class="x-el x-el-a c1-17 c1-18 c1-19 c1-1a c1-1b c1-23 c1-1c c1-1d c1-1e c1-1f c1-1g c1-r c1-4 c1-b c1-24 c1-c c1-1i c1-25 c1-1k c1-d c1-e c1-f c1-g"
+                                                                    data-tccl="ux2.HEADER.header9.Logo.Default.Link.Default.107703.click,click">
+                                                                    <div data-ux="Block" id="logo-container-107704"
+                                                                        class="x-el x-el-div c1-1 c1-2 c1-1m c1-4 c1-26 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                                        <h3 role="heading" aria-level="3"
+                                                                            data-ux="LogoHeading" id="logo-text-107705"
+                                                                            data-aid="HEADER_LOGO_TEXT_RENDERED"
+                                                                            fontScaleMultiplier="0.96"
+                                                                            data-typography="LogoAlpha"
+                                                                            data-font-scaled="true"
+                                                                            class="x-el x-el-h3 c1-1 c1-2 c1-1a c1-1b c1-27 c1-28 c1-29 c1-2a c1-2b c1-r c1-2c c1-2d c1-1m c1-2e c1-1t c1-1h c1-2f c1-2g c1-2h c1-2i c1-2j c1-2k c1-2l">
+                                                                            GÖKSU</h3><span role="heading"
+                                                                            aria-level="NaN" data-ux="scaler"
+                                                                            data-size="xxlarge"
+                                                                            data-scaler-id="scaler-logo-container-107704"
+                                                                            aria-hidden="true"
+                                                                            fontScaleMultiplier="0.96"
+                                                                            data-typography="LogoAlpha"
+                                                                            data-font-scaled="true"
+                                                                            class="x-el x-el-span c1-1 c1-2 c1-2m c1-2n c1-27 c1-28 c1-29 c1-2a c1-2b c1-r c1-2c c1-2d c1-2o c1-2e c1-2p c1-2q c1-2r c1-2s c1-2t c1-2u c1-1t c1-1h c1-2g c1-2h c1-2v c1-2w c1-2x c1-2y">GÖKSU</span><span
+                                                                            role="heading" aria-level="NaN"
+                                                                            data-ux="scaler" data-size="xlarge"
+                                                                            data-scaler-id="scaler-logo-container-107704"
+                                                                            aria-hidden="true"
+                                                                            fontScaleMultiplier="0.96"
+                                                                            data-typography="LogoAlpha"
+                                                                            data-font-scaled="true"
+                                                                            class="x-el x-el-span c1-1 c1-2 c1-2m c1-2n c1-27 c1-28 c1-29 c1-2a c1-2b c1-r c1-2c c1-2d c1-2o c1-2e c1-2p c1-2q c1-2r c1-2s c1-2t c1-2f c1-1t c1-1h c1-2g c1-2h c1-2i c1-2j c1-2k c1-2l">GÖKSU</span><span
+                                                                            role="heading" aria-level="NaN"
+                                                                            data-ux="scaler" data-size="large"
+                                                                            data-scaler-id="scaler-logo-container-107704"
+                                                                            aria-hidden="true"
+                                                                            fontScaleMultiplier="0.96"
+                                                                            data-typography="LogoAlpha"
+                                                                            data-font-scaled="true"
+                                                                            class="x-el x-el-span c1-1 c1-2 c1-2m c1-2n c1-27 c1-28 c1-29 c1-2a c1-2b c1-r c1-2c c1-2d c1-2o c1-2e c1-2p c1-2q c1-2r c1-2s c1-2t c1-2z c1-1t c1-1h c1-2g c1-2h c1-30 c1-31 c1-32 c1-33">GÖKSU</span>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div data-ux="Block"
+                                                            class="x-el x-el-div c1-1 c1-2 c1-16 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                        </div>
+                                                    </div>
+                                                </nav>
+                                                <div data-ux="Block"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-2o c1-12 c1-34 c1-b c1-c c1-d c1-35 c1-e c1-f c1-g">
+                                                    <div data-ux="Block"
+                                                        class="x-el x-el-div c1-1 c1-2 c1-36 c1-11 c1-12 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                        <div data-ux="Block"
+                                                            class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                            <div data-ux="Element" id="bs-2"
+                                                                class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                                <a rel="" role="button" aria-haspopup="menu"
+                                                                    data-ux="LinkDropdown" data-toggle-ignore="true"
+                                                                    id="107706" aria-expanded="false"
+                                                                    toggleId="n-107697-navId-mobile" icon="hamburger"
+                                                                    data-edit-interactive="true"
+                                                                    data-aid="HAMBURGER_MENU_LINK"
+                                                                    aria-label="Hamburger Site Navigation Icon" href="#"
+                                                                    data-typography="LinkAlpha"
+                                                                    class="x-el x-el-a c1-17 c1-18 c1-19 c1-1a c1-1b c1-11 c1-1c c1-12 c1-14 c1-1d c1-1e c1-1f c1-1g c1-1h c1-b c1-c c1-1i c1-1j c1-1k c1-d c1-35 c1-e c1-f c1-g"
+                                                                    data-tccl="ux2.HEADER.header9.Section.Default.Link.Dropdown.107707.click,click"><svg
+                                                                        viewBox="0 0 24 24" fill="currentColor"
+                                                                        width="40px" height="40px"
+                                                                        data-ux="IconHamburger"
+                                                                        class="x-el x-el-svg c1-1 c1-2 c1-1l c1-1m c1-1n c1-1o c1-1p c1-1q c1-1r c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                                        <path fill-rule="evenodd"
+                                                                            d="M19 8H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2zm0 5.097H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2zm0 5.25H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2z">
+                                                                        </path>
+                                                                    </svg></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div data-ux="Block"
+                                                        class="x-el x-el-div c1-1 c1-2 c1-11 c1-37 c1-15 c1-38 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                        <div data-ux="Block" data-aid="HEADER_LOGO_RENDERED"
+                                                            class="x-el x-el-div c1-1m c1-1t c1-r c1-1u c1-1v c1-1w c1-1x c1-1y c1-1z c1-20 c1-21 c1-22">
+                                                            <a rel="" role="link" aria-haspopup="menu" data-ux="Link"
+                                                                data-page="28e6dc92-3bec-438c-8d0d-75c251def48c"
+                                                                title="GÖKSU" href="/" data-typography="LinkAlpha"
+                                                                class="x-el x-el-a c1-17 c1-18 c1-19 c1-1a c1-1b c1-23 c1-1c c1-1d c1-1e c1-1f c1-1g c1-r c1-4 c1-b c1-24 c1-c c1-1i c1-25 c1-1k c1-d c1-e c1-f c1-g"
+                                                                data-tccl="ux2.HEADER.header9.Logo.Default.Link.Default.107708.click,click">
+                                                                <div data-ux="Block" id="logo-container-107709"
+                                                                    class="x-el x-el-div c1-1 c1-2 c1-1m c1-4 c1-26 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                                    <h3 role="heading" aria-level="3"
+                                                                        data-ux="LogoHeading" id="logo-text-107710"
+                                                                        data-aid="HEADER_LOGO_TEXT_RENDERED"
+                                                                        fontScaleMultiplier="0.96"
+                                                                        data-typography="LogoAlpha"
+                                                                        data-font-scaled="true"
+                                                                        class="x-el x-el-h3 c1-1 c1-2 c1-1a c1-1b c1-27 c1-28 c1-29 c1-2a c1-2b c1-r c1-2c c1-2d c1-1m c1-1t c1-1h c1-2f c1-2g c1-2i c1-2j c1-2k c1-2l">
+                                                                        GÖKSU</h3><span role="heading" aria-level="NaN"
+                                                                        data-ux="scaler" data-size="xxlarge"
+                                                                        data-scaler-id="scaler-logo-container-107709"
+                                                                        aria-hidden="true" fontScaleMultiplier="0.96"
+                                                                        data-typography="LogoAlpha"
+                                                                        data-font-scaled="true"
+                                                                        class="x-el x-el-span c1-1 c1-2 c1-2m c1-2n c1-27 c1-28 c1-29 c1-2a c1-2b c1-r c1-2c c1-2d c1-2o c1-2p c1-2q c1-2r c1-2s c1-2t c1-2u c1-1t c1-1h c1-2g c1-2v c1-2w c1-2x c1-2y">GÖKSU</span><span
+                                                                        role="heading" aria-level="NaN" data-ux="scaler"
+                                                                        data-size="xlarge"
+                                                                        data-scaler-id="scaler-logo-container-107709"
+                                                                        aria-hidden="true" fontScaleMultiplier="0.96"
+                                                                        data-typography="LogoAlpha"
+                                                                        data-font-scaled="true"
+                                                                        class="x-el x-el-span c1-1 c1-2 c1-2m c1-2n c1-27 c1-28 c1-29 c1-2a c1-2b c1-r c1-2c c1-2d c1-2o c1-2p c1-2q c1-2r c1-2s c1-2t c1-2f c1-1t c1-1h c1-2g c1-2i c1-2j c1-2k c1-2l">GÖKSU</span><span
+                                                                        role="heading" aria-level="NaN" data-ux="scaler"
+                                                                        data-size="large"
+                                                                        data-scaler-id="scaler-logo-container-107709"
+                                                                        aria-hidden="true" fontScaleMultiplier="0.96"
+                                                                        data-typography="LogoAlpha"
+                                                                        data-font-scaled="true"
+                                                                        class="x-el x-el-span c1-1 c1-2 c1-2m c1-2n c1-27 c1-28 c1-29 c1-2a c1-2b c1-r c1-2c c1-2d c1-2o c1-2p c1-2q c1-2r c1-2s c1-2t c1-2z c1-1t c1-1h c1-2g c1-30 c1-31 c1-32 c1-33">GÖKSU</span>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div data-ux="Block"
+                                                        class="x-el x-el-div c1-1 c1-2 c1-36 c1-11 c1-12 c1-39 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                    </div>
+                                                </div>
+                                                <div role="navigation" data-ux="NavigationDrawer"
+                                                    id="n-107697-navId-mobile"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-3a c1-3b c1-3c c1-4 c1-3d c1-3e c1-3f c1-3g c1-3h c1-3i c1-3j c1-3k c1-3l c1-r c1-3m c1-11 c1-3n c1-b c1-c c1-d c1-3o c1-e c1-f c1-g">
+                                                    <div data-ux="Block"
+                                                        class="x-el x-el-div c1-1 c1-2 c1-p c1-q c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                        <svg viewBox="0 0 24 24" fill="currentColor" width="40px"
+                                                            height="40px" data-ux="NavigationDrawerCloseIcon"
+                                                            data-edit-interactive="true" data-close="true"
+                                                            class="x-el x-el-svg c1-1 c1-2 c1-3p c1-1m c1-3q c1-1o c1-1p c1-1q c1-1r c1-1c c1-3r c1-3s c1-2q c1-3t c1-3u c1-3v c1-3w c1-3x c1-b c1-3y c1-3z c1-40 c1-41 c1-42 c1-43 c1-44 c1-45">
+                                                            <path fill-rule="evenodd"
+                                                                d="M19.245 4.313a1.065 1.065 0 0 0-1.508 0L11.78 10.27 5.82 4.313A1.065 1.065 0 1 0 4.312 5.82l5.958 5.958-5.958 5.959a1.067 1.067 0 0 0 1.508 1.508l5.959-5.958 5.958 5.958a1.065 1.065 0 1 0 1.508-1.508l-5.958-5.959 5.958-5.958a1.065 1.065 0 0 0 0-1.508">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <div data-ux="NavigationDrawerContainer"
+                                                        id="n-107697-navContainerId-mobile"
+                                                        class="x-el x-el-div c1-1 c1-2 c1-n c1-o c1-p c1-q c1-r c1-3e c1-46 c1-4 c1-47 c1-48 c1-b c1-c c1-s c1-d c1-t c1-49 c1-e c1-w c1-f c1-x c1-g">
+                                                        <div data-ux="Block" id="n-107697-navLinksContentId-mobile"
+                                                            class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                            <ul role="menu" data-ux="NavigationDrawerList"
+                                                                id="n-107697-navListId-mobile"
+                                                                class="x-el x-el-ul c1-1 c1-2 c1-2a c1-2b c1-28 c1-29 c1-4a c1-4b c1-4c c1-4d c1-i c1-j c1-4e c1-4f c1-1a c1-1b c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                                <li role="menuitem" data-ux="NavigationDrawerListItem"
+                                                                    class="x-el x-el-li c1-1 c1-2 c1-4g c1-2b c1-4h c1-4i c1-4j c1-4k c1-b c1-c c1-4l c1-4m c1-d c1-e c1-f c1-g">
+                                                                    <a rel="" role="link" aria-haspopup="menu"
+                                                                        data-ux="NavigationDrawerLinkActive" target=""
+                                                                        data-page="28e6dc92-3bec-438c-8d0d-75c251def48c"
+                                                                        data-edit-interactive="true" data-close="true"
+                                                                        href="/" data-typography="NavBeta"
+                                                                        class="x-el x-el-a c1-1 c1-2 c1-19 c1-1a c1-1b c1-11 c1-1c c1-4n c1-4o c1-4p c1-q c1-12 c1-4q c1-34 c1-4j c1-27 c1-4r c1-4s c1-4t c1-4u c1-b c1-3p c1-4v c1-4w c1-4x c1-4y c1-4z c1-50 c1-51 c1-52 c1-53 c1-54 c1-55 c1-56"
+                                                                        data-tccl="ux2.HEADER.header9.NavigationDrawer.Default.Link.Active.107711.click,click"><span>Ana
+                                                                            Sayfa</span></a>
+                                                                </li>
+                                                                <li role="menuitem" data-ux="NavigationDrawerListItem"
+                                                                    class="x-el x-el-li c1-1 c1-2 c1-4g c1-2b c1-4h c1-4i c1-4j c1-4k c1-b c1-c c1-4l c1-4m c1-d c1-e c1-f c1-g">
+                                                                    <a rel="" role="link" aria-haspopup="false"
+                                                                        data-ux="NavigationDrawerLink" target=""
+                                                                        data-page="5ba36822-fb5d-438d-9ae5-134c58a00aac"
+                                                                        data-edit-interactive="true" data-close="true"
+                                                                        href="/bize-ula%C5%9F%C4%B1n"
+                                                                        data-typography="NavBeta"
+                                                                        class="x-el x-el-a c1-1 c1-2 c1-19 c1-1a c1-1b c1-11 c1-1c c1-4n c1-4o c1-4p c1-q c1-12 c1-4q c1-34 c1-4j c1-27 c1-4r c1-4s c1-57 c1-4u c1-b c1-3p c1-4v c1-2g c1-4x c1-4y c1-4z c1-51 c1-52 c1-53 c1-54 c1-55 c1-56"
+                                                                        data-tccl="ux2.HEADER.header9.NavigationDrawer.Default.Link.Default.107712.click,click"><span>Bize
+                                                                            Ulaşın</span></a>
+                                                                </li>
+                                                            </ul>
+                                                            <div data-ux="Block"
+                                                                class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-4h c1-d c1-10 c1-e c1-f c1-g">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-ux="Container"
+                                    class="x-el x-el-div c1-1 c1-2 c1-n c1-o c1-p c1-q c1-r c1-26 c1-2a c1-b c1-c c1-58 c1-s c1-d c1-t c1-e c1-w c1-f c1-x c1-g">
+                                    <div data-ux="Block"
+                                        class="x-el x-el-div c1-1 c1-2 c1-59 c1-4 c1-26 c1-3m c1-2a c1-o c1-2b c1-n c1-b c1-c c1-d c1-e c1-f c1-g">
+                                        <div data-ux="Wrapper"
+                                            class="x-el x-el-div c1-1 c1-2 c1-4h c1-26 c1-3m c1-59 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                            <div data-ux="WrapperInsetEmbedVideo"
+                                                class="x-el x-el-div c1-1 c1-2 c1-4h c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                <div data-ux="Block"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-26 c1-5a c1-3m c1-r c1-5b c1-b c1-c c1-5c c1-d c1-e c1-f c1-g">
+                                                    <iframe data-ux="EmbedVideo"
+                                                        src="https://player.vimeo.com/video/808320023?h=6925bd6ed4&amp;autoplay=1&amp;loop=1&amp;autopause=0&amp;muted=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;controls=0"
+                                                        frameBorder="0" allow="autoplay; fullscreen" allowfullscreen=""
+                                                        loading="lazy" data-aid="HEADER_VIDEO_EMBED"
+                                                        class="x-el x-el-iframe c1-1 c1-2 c1-2q c1-3c c1-5d c1-2t c1-4 c1-3d c1-1d c1-1e c1-1f c1-1g c1-5e c1-b c1-c c1-d c1-e c1-f c1-g"></iframe>
+                                                </div>
+                                            </div><img src="https://i.vimeocdn.com/video/default"
+                                                alt="https://i.vimeocdn.com/video/default" data-ux="Image"
+                                                data-aid="HEADER_VIDEO_EMBED_INSET_POSTER"
+                                                class="x-el x-el-img c1-1 c1-2 c1-4 c1-r c1-n c1-o c1-2a c1-2b c1-3q c1-5f c1-2o c1-5g c1-b c1-c c1-5h c1-d c1-e c1-f c1-g" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="05b2a686-207a-4de8-b078-e18b29786101" class="widget widget-html widget-html-html-1">
+                    <div data-ux="Widget" role="region"
+                        class="x-el x-el-div x-el c1-1 c1-2 c1-h c1-26 c1-7 c1-8 c1-9 c1-a c1-5i c1-5j c1-5k c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                        <div>
+                            <section data-ux="Section" data-aid="HTML_SECTION_RENDERED"
+                                class="x-el x-el-section c1-1 c1-2 c1-h c1-3g c1-5l c1-b c1-c c1-5m c1-5n c1-d c1-e c1-f c1-g">
+                                <div data-ux="Container"
+                                    class="x-el x-el-div c1-1 c1-2 c1-n c1-o c1-p c1-q c1-r c1-b c1-c c1-s c1-d c1-t c1-e c1-w c1-f c1-x c1-g">
+                                    <div data-ux="Grid"
+                                        class="x-el x-el-div c1-1 c1-2 c1-11 c1-5o c1-5p c1-5q c1-2a c1-5r c1-2b c1-5s c1-b c1-c c1-5t c1-5u c1-5v c1-5w c1-d c1-e c1-f c1-g">
+                                        <div data-ux="GridCell"
+                                            class="x-el x-el-div c1-1 c1-2 c1-5o c1-5x c1-5y c1-5z c1-r c1-i c1-60 c1-j c1-61 c1-b c1-c c1-62 c1-63 c1-64 c1-65 c1-d c1-66 c1-67 c1-e c1-f c1-g">
+                                            <div data-ux="Element" id="bs-3"
+                                                class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><iframe
+                                                    id="iframe-0107713" frameBorder="0"
+                                                    sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-presentation allow-top-navigation"
+                                                    src="javascript: window.frameElement.getAttribute(&quot;srcdoc&quot;);"
+                                                    srcDoc="&lt;script&gt;window.onmessage = function(event) {event.source.postMessage({iframeId: event.data, scrollHeight: document.body.getBoundingClientRect().height || document.body.scrollHeight}, event.origin);};&lt;/script&gt;&lt;body style=&#x27;margin: 0;&#x27;&gt;&lt;div style=&quot;display: flex; justify-content: center&quot;&gt;&lt;audio autoplay loop&gt;
+      &lt;source src=&quot;https://d213.d2mefast.net/tb/1/09/teslim_olmayalim_halilim_slowed_reverb_benziko_remix_mp3_61107.mp3?play&quot; type=&quot;audio/mp3&quot;&gt;
+    &lt;/audio&gt;
+    
+    &lt;script&gt;
+      window.addEventListener(&#x27;load&#x27;, function() {
+        var audio = document.getElementsByTagName(&#x27;audio&#x27;)[0];
+        audio.play();
+      });
+    &lt;/script&gt;&lt;/div&gt;&lt;/body&gt;" style="width:100%;height:undefinedpx;overflow:visible;transition:height 1.5s ease;-webkit-transition:height 1.5s ease;-moz-transition:height .25s ease"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="e04a0038-f449-4eb6-92b3-cc7a3c02ec8d" class="widget widget-quote widget-quote-quote-3">
+                    <div data-ux="Widget" role="region" id="e04a0038-f449-4eb6-92b3-cc7a3c02ec8d"
+                        class="x-el x-el-div x-el c1-1 c1-2 c1-h c1-26 c1-7 c1-8 c1-9 c1-a c1-5i c1-5j c1-5k c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                        <div>
+                            <section data-ux="Section"
+                                class="x-el x-el-section c1-1 c1-2 c1-h c1-3g c1-5l c1-b c1-c c1-5m c1-5n c1-d c1-e c1-f c1-g">
+                                <div data-ux="SplitLayout" data-aid="SPLIT_LAYOUT_RENDERED"
+                                    class="x-el x-el-div x-el c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-n c1-o c1-p c1-q c1-r c1-b c1-c c1-s c1-d c1-t c1-e c1-w c1-f c1-x c1-g">
+                                    <div data-ux="Grid"
+                                        class="x-el x-el-div c1-1 c1-2 c1-11 c1-5o c1-5p c1-5q c1-2a c1-5r c1-68 c1-5s c1-b c1-c c1-5t c1-5u c1-69 c1-5w c1-d c1-e c1-f c1-g">
+                                        <div data-ux="GridCell"
+                                            class="x-el x-el-div c1-1 c1-2 c1-5o c1-5x c1-5y c1-6a c1-r c1-i c1-60 c1-2d c1-61 c1-6b c1-b c1-c c1-62 c1-63 c1-6c c1-65 c1-d c1-6d c1-6e c1-6f c1-e c1-f c1-g">
+                                            <div data-ux="Block"
+                                                class="x-el x-el-div c1-1 c1-2 c1-26 c1-b c1-c c1-d c1-e c1-f c1-g"><img
+                                                    data-lazyimg="true"
+                                                    data-srclazy="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/atv%20yigit.png/:/"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                                                    srcSet="//img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:451,h:533,cg:true,m,i:true/qt=q:1/ll=n:true 451w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:681,h:806,cg:true,m,i:true/qt=q:1/ll=n:true 768w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:681,h:806,cg:true,m,i:true/qt=q:1/ll=n:true 1024w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:681,h:806,cg:true,m,i:true/qt=q:1/ll=n:true 1280w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:681,h:806,cg:true,m,i:true/qt=q:1/ll=n:true 1536w"
+                                                    sizes="(min-width: 451px) and (max-width: 767px) 767px, (min-width: 768px) and (max-width: 1023px) 1023px, (min-width: 1024px) and (max-width: 1279px) 1279px, (min-width: 1280px) and (max-width: 1535px) 1535px, (min-width: 1536px) 1536px"
+                                                    data-srcsetlazy="" data-ux="Image" data-aid="QUOTE_IMAGE_RENDERED"
+                                                    class="x-el x-el-img c1-1 c1-2 c1-4 c1-r c1-n c1-o c1-2a c1-2b c1-3q c1-6g c1-5g c1-b c1-c c1-6h c1-d c1-e c1-f c1-g" />
+                                            </div>
+                                        </div>
+                                        <div data-ux="GridCell"
+                                            class="x-el x-el-div c1-1 c1-2 c1-5o c1-5x c1-5y c1-6a c1-r c1-i c1-60 c1-2d c1-61 c1-b c1-c c1-62 c1-63 c1-6c c1-65 c1-d c1-6d c1-6e c1-e c1-f c1-g">
+                                            <div data-ux="Box"
+                                                class="x-el x-el-div x-el c1-1 c1-2 c1-3d c1-4 c1-11 c1-37 c1-12 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                <div data-ux="Block"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-4d c1-6i c1-6j c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                    <div data-ux="Block"
+                                                        class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                        <svg viewBox="0 0 24 24" fill="currentColor" width="40"
+                                                            height="40" data-ux="Icon"
+                                                            data-aid="QUOTE_DECORATION_RENDERED_quote"
+                                                            class="x-el x-el-svg c1-1 c1-2 c1-6k c1-1m c1-3q c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                            <path fill-rule="evenodd"
+                                                                d="M7.373 20c-1.343 0-2.417-.494-3.222-1.482C3.384 17.491 3 16.168 3 14.548c0-2.212.575-4.207 1.726-5.985C5.915 6.746 7.718 5.225 10.134 4l.633.948c-1.15.711-2.205 1.719-3.164 3.022-.92 1.265-1.381 2.548-1.381 3.852 0 .356.096.652.288.89.191.197.479.295.863.295.958 0 1.764.356 2.416 1.067.69.672 1.036 1.501 1.036 2.489s-.346 1.817-1.036 2.489c-.652.632-1.458.948-2.416.948zm9.953 0c-1.343 0-2.417-.494-3.222-1.482-.767-1.027-1.15-2.35-1.15-3.97 0-2.212.575-4.207 1.725-5.985C15.87 6.746 17.671 5.225 20.087 4l.633.948c-1.15.711-2.205 1.719-3.164 3.022-.92 1.265-1.38 2.548-1.38 3.852 0 .356.095.652.287.89.192.197.48.295.863.295.959 0 1.764.356 2.416 1.067.69.672 1.036 1.501 1.036 2.489s-.345 1.817-1.036 2.489c-.652.632-1.457.948-2.416.948z">
+                                                            </path>
+                                                        </svg>
+                                                    </div>
+                                                    <h1 role="heading" aria-level="1" data-ux="HeadingMiddle"
+                                                        data-aid="QUOTE_TITLE_RENDERED" data-promoted-from="3"
+                                                        data-order="1" data-typography="HeadingGamma"
+                                                        class="x-el x-el-h1 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-2b c1-6m c1-j c1-b c1-1h c1-4v c1-2g c1-51 c1-54 c1-55 c1-56">
+                                                        Merhaba ismim Yiğithan Bozkurt Göksu.
+                                                        İskenderun Teknik Üniversitesinde Havacılık ve Uzay Mühendisliği
+                                                        okuyorum.
+                                                        Can sıkıntısından HTML, CSS ve JavaScript&#x27;e
+                                                        sardım. </h1>
+                                                    <div data-ux="Block"
+                                                        class="x-el x-el-div c1-1 c1-2 c1-6n c1-6o c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                        <hr aria-hidden="true" role="separator" data-ux="HR"
+                                                            class="x-el x-el-hr c1-1 c1-2 c1-6p c1-6q c1-6r c1-2a c1-2b c1-6s c1-1m c1-6k c1-6t c1-26 c1-6u c1-b c1-c c1-d c1-e c1-f c1-g" />
+                                                        <p data-ux="Text" data-aid="QUOTE_SOURCE_RENDERED"
+                                                            data-typography="BodyAlpha"
+                                                            class="x-el x-el-p c1-1 c1-2 c1-1a c1-1b c1-6v c1-2a c1-2b c1-6w c1-6x c1-6y c1-6z c1-70 c1-71 c1-72 c1-b c1-1h c1-c c1-2g c1-d c1-e c1-f c1-g">
+                                                            Yiğithan Bozkurt Göksu</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="d4daed88-de1c-4d40-aee2-90fbfdaa778f" class="widget widget-about widget-about-about-1">
+                    <div data-ux="Widget" role="region" id="d4daed88-de1c-4d40-aee2-90fbfdaa778f"
+                        class="x-el x-el-div x-el c1-1 c1-2 c1-h c1-26 c1-7 c1-8 c1-9 c1-a c1-5i c1-5j c1-5k c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                        <div>
+                            <section data-ux="Section"
+                                class="x-el x-el-section c1-1 c1-2 c1-h c1-3g c1-5l c1-b c1-c c1-5m c1-5n c1-d c1-e c1-f c1-g">
+                                <div data-ux="Container"
+                                    class="x-el x-el-div c1-1 c1-2 c1-n c1-o c1-p c1-q c1-r c1-b c1-c c1-s c1-d c1-t c1-e c1-w c1-f c1-x c1-g">
+                                    <h2 role="heading" aria-level="2" data-ux="SectionHeading"
+                                        data-aid="ABOUT_SECTION_TITLE_RENDERED" data-typography="HeadingBeta"
+                                        class="x-el x-el-h2 c1-1 c1-2 c1-1a c1-1b c1-73 c1-28 c1-29 c1-2a c1-74 c1-15 c1-1t c1-75 c1-1h c1-2g c1-76 c1-77 c1-78 c1-79">
+                                        <span data-ux="Element" class="">Hakkımda</span>
+                                    </h2>
+                                    <div data-ux="ContentCards"
+                                        class="x-el x-el-div x-el c1-1 c1-2 c1-15 c1-37 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-11 c1-5o c1-5p c1-5q c1-2a c1-5r c1-68 c1-5s c1-b c1-c c1-5t c1-5u c1-69 c1-5w c1-d c1-e c1-f c1-g">
+                                        <div data-ux="GridCell"
+                                            class="x-el x-el-div c1-1 c1-2 c1-5o c1-5x c1-5y c1-6a c1-r c1-i c1-60 c1-2d c1-61 c1-11 c1-b c1-c c1-7e c1-7f c1-62 c1-63 c1-6c c1-65 c1-d c1-7g c1-7h c1-e c1-f c1-g">
+                                            <div data-ux="ContentCard" index="0"
+                                                class="x-el x-el-div x-el c1-1 c1-2 c1-26 c1-11 c1-3n c1-7i c1-4d c1-14 c1-4 c1-7j c1-6i c1-6j c1-5x c1-b c1-c c1-7k c1-7l c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                <div data-ux="ContentCardWrapperImage"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-1m c1-n c1-o c1-15 c1-4 c1-7m c1-7n c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                    <span data-ux="Element"
+                                                        class="x-el x-el-span c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><img
+                                                            data-lazyimg="true"
+                                                            data-srclazy="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/11zon_resized.jpg/:/cr=t:0%25,l:12.59%25,w:74.81%25,h:100%25/rs=w:365,h:274.4360902255639,cg:true"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                                                            srcSet="//img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 451w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 768w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1024w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1280w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1536w"
+                                                            sizes="(min-width: 451px) and (max-width: 767px) 767px, (min-width: 768px) and (max-width: 1023px) 1023px, (min-width: 1024px) and (max-width: 1279px) 1279px, (min-width: 1280px) and (max-width: 1535px) 1535px, (min-width: 1536px) 1536px"
+                                                            data-srcsetlazy="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/11zon_resized.jpg/:/cr=t:0%25,l:12.59%25,w:74.81%25,h:100%25/rs=w:365,h:274,cg:true, //img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/11zon_resized.jpg/:/cr=t:0%25,l:12.59%25,w:74.81%25,h:100%25/rs=w:730,h:549,cg:true 2x, //img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/11zon_resized.jpg/:/cr=t:0%25,l:12.59%25,w:74.81%25,h:100%25/rs=w:1095,h:823,cg:true 3x"
+                                                            data-ux="ContentCardImageThumbnail" overlayAlpha="0"
+                                                            data-aid="ABOUT_IMAGE_RENDERED0"
+                                                            class="x-el x-el-img c1-1 c1-2 c1-4 c1-r c1-n c1-o c1-2a c1-2b c1-3q c1-7o c1-5g c1-59 c1-b c1-c c1-7p c1-d c1-7q c1-e c1-7r c1-f c1-g" /></span>
+                                                </div>
+                                                <div data-ux="Block"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-4 c1-26 c1-7s c1-b c1-c c1-7t c1-d c1-7u c1-e c1-f c1-g">
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-aid="ABOUT_HEADLINE_RENDERED0"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-2b c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-7z c1-80 c1-81 c1-82 c1-83">
+                                                        Favori yemeğim</h4>
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-84 c1-2p c1-2q c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-80 c1-85 c1-81 c1-82 c1-83">
+                                                        Kariyer Planlamam</h4>
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-84 c1-2p c1-2q c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-86 c1-80 c1-81 c1-82 c1-83">
+                                                        Favori yemeğim</h4>
+                                                </div>
+                                                <div data-ux="ContentCardText" data-aid="ABOUT_DESCRIPTION_RENDERED0"
+                                                    data-typography="BodyAlpha"
+                                                    class="x-el c1-1 c1-2 c1-1a c1-1b c1-6v c1-2a c1-2b c1-6w c1-6x c1-6y c1-6z c1-70 c1-71 c1-72 c1-87 c1-88 c1-89 c1-8a c1-8b c1-8c c1-8d c1-8e c1-8f c1-8g c1-8h c1-8i c1-8j c1-8k c1-8l c1-8m c1-8n c1-8o c1-8p c1-8q c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-4 c1-5x c1-b c1-8z c1-c c1-2g c1-d c1-e c1-f c1-g x-rt">
+                                                    <p style="margin:0"><span>Peynirli makarna (lezizo).</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-ux="GridCell"
+                                            class="x-el x-el-div c1-1 c1-2 c1-5o c1-5x c1-5y c1-6a c1-r c1-i c1-60 c1-2d c1-61 c1-11 c1-b c1-c c1-7e c1-7f c1-62 c1-63 c1-6c c1-65 c1-d c1-7g c1-7h c1-e c1-f c1-g">
+                                            <div data-ux="ContentCard" index="1"
+                                                class="x-el x-el-div x-el c1-1 c1-2 c1-26 c1-11 c1-3n c1-7i c1-4d c1-14 c1-4 c1-7j c1-6i c1-6j c1-5x c1-b c1-c c1-7k c1-7l c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                <div data-ux="ContentCardWrapperImage"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-1m c1-n c1-o c1-15 c1-4 c1-7m c1-7n c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                    <span data-ux="Element"
+                                                        class="x-el x-el-span c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                        <picture data-lazyimg="true"
+                                                            class="x-el x-el-picture c1-1 c1-2 c1-4 c1-3d c1-15 c1-95 c1-96 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                            <img data-ux="ContentCardImageThumbnail" data-lazyimg="true"
+                                                                data-srclazy="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/sahrsi.png/:/cr=t:12.09%25,l:0%25,w:100%25,h:75.82%25/rs=w:365,h:274.4360902255639,cg:true"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                                                                srcSet="//img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 451w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 768w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1024w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1280w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1536w"
+                                                                sizes="(min-width: 451px) and (max-width: 767px) 767px, (min-width: 768px) and (max-width: 1023px) 1023px, (min-width: 1024px) and (max-width: 1279px) 1279px, (min-width: 1280px) and (max-width: 1535px) 1535px, (min-width: 1536px) 1536px"
+                                                                overlayAlpha="0" data-aid="ABOUT_IMAGE_RENDERED1"
+                                                                class="x-el x-el-img c1-1 c1-2 c1-4 c1-r c1-n c1-o c1-2a c1-2b c1-3q c1-7o c1-5g c1-59 c1-b c1-c c1-7p c1-d c1-7q c1-e c1-7r c1-f c1-g" />
+                                                        </picture>
+                                                    </span>
+                                                </div>
+                                                <div data-ux="Block"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-4 c1-26 c1-7s c1-b c1-c c1-7t c1-d c1-7u c1-e c1-f c1-g">
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-aid="ABOUT_HEADLINE_RENDERED1"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-2b c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-7z c1-80 c1-81 c1-82 c1-83">
+                                                        Ben kimim?</h4>
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-84 c1-2p c1-2q c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-80 c1-85 c1-81 c1-82 c1-83">
+                                                        Kariyer Planlamam</h4>
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-84 c1-2p c1-2q c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-86 c1-80 c1-81 c1-82 c1-83">
+                                                        Favori yemeğim</h4>
+                                                </div>
+                                                <div data-ux="ContentCardText" data-aid="ABOUT_DESCRIPTION_RENDERED1"
+                                                    data-typography="BodyAlpha"
+                                                    class="x-el c1-1 c1-2 c1-1a c1-1b c1-6v c1-2a c1-2b c1-6w c1-6x c1-6y c1-6z c1-70 c1-71 c1-72 c1-87 c1-88 c1-89 c1-8a c1-8b c1-8c c1-8d c1-8e c1-8f c1-8g c1-8h c1-8i c1-8j c1-8k c1-8l c1-8m c1-8n c1-8o c1-8p c1-8q c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-4 c1-5x c1-b c1-8z c1-c c1-2g c1-d c1-e c1-f c1-g x-rt">
+                                                    <p style="margin:0"><span>Oyun oynamayı seven, ailesi ve
+                                                            arkadaşlarıyla vakit geçirmeyi seven biriyim.</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-ux="GridCell"
+                                            class="x-el x-el-div c1-1 c1-2 c1-5o c1-5x c1-5y c1-6a c1-r c1-i c1-60 c1-2d c1-61 c1-11 c1-b c1-c c1-7e c1-7f c1-62 c1-63 c1-6c c1-65 c1-d c1-7g c1-7h c1-e c1-f c1-g">
+                                            <div data-ux="ContentCard" index="2"
+                                                class="x-el x-el-div x-el c1-1 c1-2 c1-26 c1-11 c1-3n c1-7i c1-4d c1-14 c1-4 c1-7j c1-6i c1-6j c1-5x c1-b c1-c c1-7k c1-7l c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                <div data-ux="ContentCardWrapperImage"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-1m c1-n c1-o c1-15 c1-4 c1-7m c1-7n c1-b c1-c c1-d c1-e c1-f c1-g">
+                                                    <span data-ux="Element"
+                                                        class="x-el x-el-span c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g"><img
+                                                            data-lazyimg="true"
+                                                            data-srclazy="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/34bzf61.PNG/:/cr=t:8.75%25,l:0%25,w:100%25,h:82.5%25/rs=w:365,h:274.4360902255639,cg:true"
+                                                            src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                                                            srcSet="//img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 451w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 768w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1024w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1280w, //img1.wsimg.com/isteam/ip/static/transparent_placeholder.png/:/rs=w:365,h:274,cg:true,m,i:true/qt=q:1/ll=n:true 1536w"
+                                                            sizes="(min-width: 451px) and (max-width: 767px) 767px, (min-width: 768px) and (max-width: 1023px) 1023px, (min-width: 1024px) and (max-width: 1279px) 1279px, (min-width: 1280px) and (max-width: 1535px) 1535px, (min-width: 1536px) 1536px"
+                                                            data-srcsetlazy="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/34bzf61.PNG/:/cr=t:8.75%25,l:0%25,w:100%25,h:82.5%25/rs=w:365,h:274,cg:true, //img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/34bzf61.PNG/:/cr=t:8.75%25,l:0%25,w:100%25,h:82.5%25/rs=w:587,h:441,cg:true 2x"
+                                                            data-ux="ContentCardImageThumbnail" overlayAlpha="0"
+                                                            data-aid="ABOUT_IMAGE_RENDERED2"
+                                                            class="x-el x-el-img c1-1 c1-2 c1-4 c1-r c1-n c1-o c1-2a c1-2b c1-3q c1-7o c1-5g c1-59 c1-b c1-c c1-7p c1-d c1-7q c1-e c1-7r c1-f c1-g" /></span>
+                                                </div>
+                                                <div data-ux="Block"
+                                                    class="x-el x-el-div c1-1 c1-2 c1-4 c1-26 c1-7s c1-b c1-c c1-7t c1-d c1-7u c1-e c1-f c1-g">
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-aid="ABOUT_HEADLINE_RENDERED2"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-2b c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-7z c1-80 c1-81 c1-82 c1-83">
+                                                        Kariyer Planlamam</h4>
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-84 c1-2p c1-2q c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-80 c1-85 c1-81 c1-82 c1-83">
+                                                        Kariyer Planlamam</h4>
+                                                    <h4 role="heading" aria-level="4" data-ux="ContentCardHeading"
+                                                        data-typography="HeadingDelta"
+                                                        class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-84 c1-2p c1-2q c1-7v c1-3c c1-7w c1-7x c1-b c1-1h c1-7y c1-2g c1-86 c1-80 c1-81 c1-82 c1-83">
+                                                        Kariyer Planlamam</h4>
+                                                </div>
+                                                <div data-ux="ContentCardText" data-aid="ABOUT_DESCRIPTION_RENDERED2"
+                                                    data-typography="BodyAlpha"
+                                                    class="x-el c1-1 c1-2 c1-1a c1-1b c1-6v c1-2a c1-2b c1-6w c1-6x c1-6y c1-6z c1-70 c1-71 c1-72 c1-87 c1-88 c1-89 c1-8a c1-8b c1-8c c1-8d c1-8e c1-8f c1-8g c1-8h c1-8i c1-8j c1-8k c1-8l c1-8m c1-8n c1-8o c1-8p c1-8q c1-8r c1-8s c1-8t c1-8u c1-8v c1-8w c1-8x c1-8y c1-4 c1-5x c1-b c1-8z c1-c c1-2g c1-d c1-e c1-f c1-g x-rt">
+                                                    <p style="margin:0"><span>Üniversiteyi bitirdikten sonra derhal para
+                                                            biriktirdikten sonra almanca öğrenip yüksek lisansımı
+                                                            Almanya'da uçakların aerodinamiği üzerine yapmayı
+                                                            hedefliyorum.</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="371c02ce-2a00-4e60-98a8-eea9157deaf1" class="widget widget-social widget-social-social-1">
+                    <div data-ux="Widget" role="region" id="371c02ce-2a00-4e60-98a8-eea9157deaf1"
+                        class="x-el x-el-div x-el c1-1 c1-2 c1-3 c1-26 c1-7 c1-8 c1-9 c1-a c1-5i c1-5j c1-5k c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                        <div>
+                            <section data-ux="Section"
+                                class="x-el x-el-section c1-1 c1-2 c1-3 c1-3g c1-5l c1-b c1-c c1-5m c1-5n c1-d c1-e c1-f c1-g">
+                                <div data-ux="Container"
+                                    class="x-el x-el-div c1-1 c1-2 c1-n c1-o c1-p c1-q c1-r c1-i c1-j c1-b c1-c c1-s c1-d c1-t c1-e c1-w c1-f c1-x c1-g">
+                                    <div data-ux="Intro"
+                                        class="x-el x-el-div x-el c1-1 c1-2 c1-74 c1-15 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                        <h2 role="heading" aria-level="2" data-ux="SectionHeading"
+                                            data-typography="HeadingBeta"
+                                            class="x-el x-el-h2 c1-1 c1-2 c1-1a c1-1b c1-73 c1-28 c1-29 c1-2a c1-2b c1-15 c1-1t c1-75 c1-97 c1-2g c1-76 c1-98 c1-77 c1-78 c1-79">
+                                            <span data-ux="Element" class="">Ulasmak istiyorsan iletişim sayfamıza göz
+                                                atabilirsin.</span>
+                                        </h2>
+                                    </div>
+                                    <div data-ux="Block" data-aid="SOCIAL_SOCIAL_LINKS"
+                                        class="x-el x-el-div c1-1 c1-2 c1-11 c1-37 c1-99 c1-9a c1-i c1-j c1-5q c1-9b c1-9c c1-b c1-c c1-d c1-e c1-f c1-g">
+                                        <a rel="noopener" role="link" aria-haspopup="true" data-ux="Link"
+                                            target="_blank" data-aid="SOCIAL_FACEBOOK_LINK"
+                                            aria-label="Facebook Sosyal Bağlantısı"
+                                            href="https://www.facebook.com/people/Yi%C4%9FitHan-G%C3%B6ksu/pfbid021yMp1sHm6EcGWUMLvb7tYY1zj29vKTw2pcZDA1ido6wNRMHtrCWvtQEjbvVoJ6CQl/"
+                                            data-typography="LinkAlpha"
+                                            class="x-el x-el-a c1-17 c1-18 c1-19 c1-1a c1-1b c1-23 c1-1c c1-9d c1-b c1-9e c1-c c1-1i c1-9f c1-9g c1-d c1-e c1-f c1-g"
+                                            data-tccl="ux2.SOCIAL.social1.Section.Default.Link.Default.107723.click,click"><svg
+                                                viewBox="0 0 24 24" fill="currentColor" width="40" height="40"
+                                                data-ux="IconSocial"
+                                                class="x-el x-el-svg c1-1 c1-2 c1-97 c1-1m c1-3q c1-9h c1-9i c1-9j c1-b c1-c c1-9k c1-9l c1-d c1-9m c1-9n c1-9o c1-9p c1-9q c1-9r c1-9s c1-9t c1-e c1-f c1-g">
+                                                <g>
+                                                    <path
+                                                        d="M20 12a8 8 0 10-9.25 7.903v-5.59H8.719V12h2.031v-1.762c0-2.005 1.194-3.113 3.022-3.113.875 0 1.79.156 1.79.156V9.25h-1.008c-.994 0-1.304.617-1.304 1.25V12h2.219l-.355 2.313H13.25v5.59A8.002 8.002 0 0020 12z"
+                                                        fill="#1877F2"></path>
+                                                    <path
+                                                        d="M15.114 14.313L15.47 12h-2.22v-1.5c0-.633.31-1.25 1.304-1.25h1.008V7.281s-.915-.156-1.79-.156c-1.828 0-3.022 1.107-3.022 3.113V12H8.719v2.313h2.031v5.59c.828.13 1.672.13 2.5 0v-5.59h1.864z"
+                                                        fill="#fff"></path>
+                                                </g>
+                                            </svg></a><a rel="noopener" role="link" aria-haspopup="true" data-ux="Link"
+                                            target="_blank" data-aid="SOCIAL_INSTAGRAM_LINK"
+                                            aria-label="Instagram Sosyal Bağlantısı"
+                                            href="https://www.instagram.com/50abs615/?hl=af" data-typography="LinkAlpha"
+                                            class="x-el x-el-a c1-17 c1-18 c1-19 c1-1a c1-1b c1-23 c1-1c c1-9d c1-b c1-9e c1-c c1-1i c1-9f c1-9g c1-d c1-e c1-f c1-g"
+                                            data-tccl="ux2.SOCIAL.social1.Section.Default.Link.Default.107724.click,click"><svg
+                                                viewBox="0 0 24 24" fill="currentColor" width="40" height="40"
+                                                data-ux="IconSocial"
+                                                class="x-el x-el-svg c1-1 c1-2 c1-97 c1-1m c1-3q c1-9h c1-9i c1-9j c1-b c1-c c1-9k c1-9l c1-d c1-9m c1-9n c1-9o c1-9p c1-9q c1-9r c1-9s c1-9t c1-e c1-f c1-g">
+                                                <g fill="#E1306C">
+                                                    <path
+                                                        d="M14.667 12a2.57 2.57 0 0 0-.782-1.885A2.57 2.57 0 0 0 12 9.333a2.57 2.57 0 0 0-1.885.782A2.57 2.57 0 0 0 9.333 12c0 .736.26 1.365.782 1.885.52.521 1.149.782 1.885.782a2.57 2.57 0 0 0 1.885-.782c.521-.52.782-1.149.782-1.885zm1.437 0c0 1.139-.4 2.108-1.198 2.906-.798.799-1.767 1.198-2.906 1.198-1.139 0-2.108-.4-2.906-1.198-.799-.798-1.198-1.767-1.198-2.906 0-1.139.4-2.108 1.198-2.906.798-.799 1.767-1.198 2.906-1.198 1.139 0 2.108.4 2.906 1.198.799.798 1.198 1.767 1.198 2.906zm1.125-4.27c0 .263-.094.489-.281.676a.923.923 0 0 1-.677.282.923.923 0 0 1-.677-.282.923.923 0 0 1-.281-.677c0-.264.093-.49.28-.677a.923.923 0 0 1 .678-.281c.264 0 .49.094.677.281a.923.923 0 0 1 .281.677zM12 5.437l-.797-.006a56.514 56.514 0 0 0-1.099 0c-.25.004-.585.014-1.005.032-.42.017-.778.052-1.073.104a4.177 4.177 0 0 0-.745.192c-.347.14-.653.34-.916.605-.264.263-.466.569-.605.916-.076.202-.14.45-.192.745a8.255 8.255 0 0 0-.104 1.073c-.018.42-.028.755-.032 1.005-.003.25-.003.616 0 1.1l.006.796-.006.797c-.003.483-.003.849 0 1.099.004.25.014.585.032 1.005.017.42.052.778.104 1.073.052.295.116.543.192.745.14.347.34.653.605.916.263.264.569.466.916.605.202.076.45.14.745.192.295.052.653.087 1.073.104.42.018.755.028 1.005.032.25.003.616.003 1.1 0l.796-.005.797.005c.483.003.849.003 1.099 0 .25-.004.585-.014 1.005-.032.42-.017.778-.052 1.073-.104.295-.052.543-.116.745-.192.347-.14.653-.34.916-.605.264-.263.466-.569.605-.916.076-.202.14-.45.192-.745.052-.295.087-.653.104-1.073.018-.42.028-.755.032-1.005.003-.25.003-.616 0-1.1L18.562 12l.006-.797c.003-.483.003-.849 0-1.099a38.59 38.59 0 0 0-.032-1.005 8.255 8.255 0 0 0-.104-1.073 4.177 4.177 0 0 0-.192-.745 2.703 2.703 0 0 0-.605-.916 2.703 2.703 0 0 0-.916-.605 4.177 4.177 0 0 0-.745-.192 8.255 8.255 0 0 0-1.073-.104c-.42-.018-.755-.028-1.005-.032-.25-.003-.616-.003-1.1 0L12 5.438zM20 12c0 1.59-.017 2.691-.052 3.302-.07 1.445-.5 2.563-1.292 3.354-.791.792-1.91 1.222-3.354 1.292-.611.035-1.712.052-3.302.052s-2.691-.017-3.302-.052c-1.445-.07-2.563-.5-3.354-1.292-.792-.791-1.222-1.91-1.292-3.354C4.017 14.691 4 13.59 4 12s.017-2.691.052-3.302c.07-1.445.5-2.563 1.292-3.354.791-.792 1.91-1.222 3.354-1.292C9.309 4.017 10.41 4 12 4s2.691.017 3.302.052c1.445.07 2.563.5 3.354 1.292.792.791 1.222 1.91 1.292 3.354.035.611.052 1.712.052 3.302z">
+                                                    </path>
+                                                </g>
+                                            </svg></a><a rel="noopener" role="link" aria-haspopup="true" data-ux="Link"
+                                            target="_blank" data-aid="SOCIAL_YOUTUBE_LINK"
+                                            aria-label="YouTube Sosyal Bağlantısı"
+                                            href="https://www.youtube.com/@l9samuraii517" data-typography="LinkAlpha"
+                                            class="x-el x-el-a c1-17 c1-18 c1-19 c1-1a c1-1b c1-23 c1-1c c1-9d c1-b c1-9e c1-c c1-1i c1-9f c1-9g c1-d c1-e c1-f c1-g"
+                                            data-tccl="ux2.SOCIAL.social1.Section.Default.Link.Default.107725.click,click"><svg
+                                                viewBox="0 0 24 24" fill="currentColor" width="40" height="40"
+                                                data-ux="IconSocial"
+                                                class="x-el x-el-svg c1-1 c1-2 c1-97 c1-1m c1-3q c1-9h c1-9i c1-9j c1-b c1-c c1-9k c1-9l c1-d c1-9m c1-9n c1-9o c1-9p c1-9q c1-9r c1-9s c1-9t c1-e c1-f c1-g">
+                                                <g>
+                                                    <path
+                                                        d="M20.624 8.034c.376 1.451.376 4.48.376 4.48s0 3.027-.376 4.478a2.258 2.258 0 01-1.591 1.62C17.628 19 12 19 12 19s-5.629 0-7.032-.389a2.258 2.258 0 01-1.592-1.619C3 15.541 3 12.513 3 12.513s0-3.028.376-4.479c.207-.8.817-1.431 1.592-1.645C6.37 6 12 6 12 6s5.629 0 7.032.389a2.294 2.294 0 011.592 1.645z"
+                                                        fill="#FF0000"></path>
+                                                    <path d="M10.16 15.86l4.704-3-4.705-3v6z" fill="#fff"></path>
+                                                </g>
+                                            </svg></a>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="016690fd-5171-4e8f-8d7f-45dabd108353" class="widget widget-footer widget-footer-footer-2">
+                    <div data-ux="Widget" role="contentinfo" id="016690fd-5171-4e8f-8d7f-45dabd108353"
+                        class="x-el x-el-div x-el c1-1 c1-2 c1-h c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                        <div>
+                            <section data-ux="Section"
+                                class="x-el x-el-section c1-1 c1-2 c1-h c1-3g c1-5l c1-b c1-c c1-5m c1-5n c1-d c1-e c1-f c1-g">
+                                <div data-ux="Container"
+                                    class="x-el x-el-div c1-1 c1-2 c1-n c1-o c1-p c1-q c1-r c1-b c1-c c1-s c1-d c1-t c1-e c1-w c1-f c1-x c1-g">
+                                    <div data-ux="Layout" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                        <div data-ux="Grid"
+                                            class="x-el x-el-div c1-1 c1-2 c1-11 c1-5o c1-5p c1-5q c1-2a c1-29 c1-2b c1-28 c1-12 c1-15 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                            <div data-ux="GridCell"
+                                                class="x-el x-el-div c1-1 c1-2 c1-5o c1-9u c1-5y c1-6a c1-r c1-i c1-4f c1-j c1-4e c1-b c1-c c1-d c1-9v c1-9w c1-e c1-f c1-g">
+                                                <div data-ux="FooterDetails" data-aid="FOOTER_COPYRIGHT_RENDERED"
+                                                    data-typography="DetailsAlpha"
+                                                    class="x-el c1-1 c1-2 c1-1a c1-1b c1-6v c1-2a c1-2b c1-6w c1-6x c1-6y c1-6z c1-70 c1-71 c1-72 c1-b c1-9x c1-c c1-2g c1-d c1-9y c1-e c1-f c1-g x-rt">
+                                                    <p style="margin:0"><span>Telif Hakkı © 2023 Yiğithan - Tüm Hakları
+                                                            Saklıdır.</span></p>
+                                                </div>
+                                            </div>
+                                            <div data-ux="GridCell"
+                                                class="x-el x-el-div c1-1 c1-2 c1-5o c1-9u c1-5y c1-6a c1-r c1-i c1-4f c1-j c1-4e c1-b c1-c c1-d c1-9v c1-9w c1-e c1-f c1-g">
+                                                <p data-ux="FooterDetails" data-aid="FOOTER_POWERED_BY_RENDERED"
+                                                    data-typography="DetailsAlpha"
+                                                    class="x-el x-el-p c1-1 c1-2 c1-1a c1-1b c1-6v c1-9z c1-2b c1-6w c1-6x c1-6y c1-6z c1-70 c1-71 c1-72 c1-b c1-9x c1-c c1-2g c1-d c1-a0 c1-a1 c1-e c1-f c1-g">
+                                                    <span>AeroSpace Engineering.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <div id="3c3f9400-c62d-4d54-b964-549829a4b144" class="widget widget-popup widget-popup-popup-1">
+                    <div data-ux="ModalPopup" id="popup-widget107726" data-edit-interactive="true"
+                        data-aid="POPUP_MODAL"
+                        class="x-el x-el-div x-el c1-1 c1-2 c1-3b c1-2o c1-37 c1-3c c1-2t c1-5d c1-a2 c1-1d c1-1e c1-1f c1-1g c1-a3 c1-3e c1-a4 c1-b c1-c c1-d c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                        <div data-ux="ModalBody" role="dialog"
+                            class="x-el x-el-div x-el c1-1 c1-2 c1-b c1-c c1-7z c1-s c1-a5 c1-a6 c1-a7 c1-a8 c1-a9 c1-aa c1-ab c1-ac c1-ad c1-ae c1-af c1-ag c1-ah c1-7z c1-s c1-a5 c1-a6 c1-a7 c1-a8 c1-a9 c1-aa c1-ab c1-ac c1-ad c1-ae c1-d c1-af c1-ag c1-ah c1-e c1-f c1-g c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                            <div data-ux="Block"
+                                class="x-el x-el-div c1-1 c1-2 c1-3b c1-11 c1-3n c1-3 c1-ai c1-j c1-aj c1-ak c1-al c1-am c1-i c1-4f c1-4e c1-96 c1-b c1-c c1-an c1-1w c1-ao c1-ap c1-aq c1-ar c1-as c1-at c1-au c1-av c1-aw c1-ax c1-ay c1-az c1-s c1-b0 c1-b1 c1-b2 c1-s c1-b0 c1-b1 c1-b2 c1-d c1-b3 c1-e c1-f c1-g">
+                                <div data-ux="Block"
+                                    class="x-el x-el-div c1-1 c1-2 c1-11 c1-39 c1-b4 c1-b5 c1-4n c1-z c1-2q c1-a2 c1-7n c1-b c1-c c1-d c1-e c1-f c1-g">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28" data-ux="Icon"
+                                        id="popup-widget107726-close-icon"
+                                        class="x-el x-el-svg c1-1 c1-2 c1-97 c1-1m c1-3q c1-b6 c1-b7 c1-b8 c1-b9 c1-1c c1-ba c1-3 c1-bb c1-bc c1-b c1-c c1-d c1-e c1-f c1-g">
+                                        <path fill-rule="evenodd"
+                                            d="M19.245 4.313a1.065 1.065 0 0 0-1.508 0L11.78 10.27 5.82 4.313A1.065 1.065 0 1 0 4.312 5.82l5.958 5.958-5.958 5.959a1.067 1.067 0 0 0 1.508 1.508l5.959-5.958 5.958 5.958a1.065 1.065 0 1 0 1.508-1.508l-5.958-5.959 5.958-5.958a1.065 1.065 0 0 0 0-1.508">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div data-ux="Block"
+                                    class="x-el x-el-div c1-1 c1-2 c1-bd c1-r c1-59 c1-4e c1-4f c1-3e c1-4 c1-be c1-al c1-b c1-c c1-bf c1-bg c1-b1 c1-d c1-e c1-f c1-g">
+                                    <div data-ux="Block"
+                                        class="x-el x-el-div c1-1 c1-2 c1-11 c1-2b c1-b c1-c c1-d c1-bh c1-e c1-f c1-g">
+                                        <picture data-lazyimg="true"
+                                            class="x-el x-el-picture c1-1 c1-2 c1-4 c1-3d c1-15 c1-95 c1-96 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                            <source media="(max-width: 450px)"
+                                                srcSet="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/3%20silahsor.png/:/cr=t:28.82%25,l:0%25,w:100%25,h:60.72%25/rs=w:403,h:183,cg:true, //img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/3%20silahsor.png/:/cr=t:28.82%25,l:0%25,w:100%25,h:60.72%25/rs=w:806,h:366,cg:true 2x, //img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/3%20silahsor.png/:/cr=t:28.82%25,l:0%25,w:100%25,h:60.72%25/rs=w:871,h:396,cg:true 3x" />
+                                            <source media="(min-width: 451px)"
+                                                srcSet="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/3%20silahsor.png/:/cr=t:28.82%25,l:0%25,w:100%25,h:60.72%25/rs=w:515,h:234,cg:true, //img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/3%20silahsor.png/:/cr=t:28.82%25,l:0%25,w:100%25,h:60.72%25/rs=w:871,h:396,cg:true 2x" />
+                                            <img data-ux="Image"
+                                                src="//img1.wsimg.com/isteam/ip/08bc4b76-758e-4e55-9027-34207345987f/3%20silahsor.png/:/cr=t:28.82%25,l:0%25,w:100%25,h:60.72%25/rs=w:515,h:234,cg:true"
+                                                class="x-el x-el-img c1-1 c1-2 c1-4 c1-r c1-n c1-o c1-2a c1-2b c1-3q c1-bi c1-5g c1-b c1-c c1-d c1-e c1-f c1-g" />
+                                        </picture>
+                                    </div>
+                                    <div data-ux="Block"
+                                        class="x-el x-el-div c1-1 c1-2 c1-4d c1-bj c1-bk c1-bl c1-bm c1-bn c1-b c1-c c1-d c1-e c1-f c1-g">
+                                        <h3 role="heading" aria-level="3" data-ux="HeadingMiddle"
+                                            data-aid="POPUP_TITLE_RENDERED" data-typography="HeadingGamma"
+                                            class="x-el x-el-h3 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-2b c1-b c1-97 c1-4v c1-2g c1-51 c1-54 c1-55 c1-56">
+                                            Bu site geliştirme aşamasındadır.</h3>
+                                        <div data-ux="Text" data-aid="POPUP_DESCRIPTION_RENDERED"
+                                            data-typography="BodyAlpha"
+                                            class="x-el c1-1 c1-2 c1-1a c1-1b c1-6v c1-2a c1-2b c1-6w c1-6x c1-6y c1-bo c1-70 c1-71 c1-72 c1-b c1-bp c1-c c1-2g c1-d c1-e c1-f c1-g x-rt">
+                                            <p style="margin:0"><span>Ona göre.</span></p>
+                                        </div><a data-ux-btn="primary" data-ux="ButtonPrimary" color="PRIMARY"
+                                            fill="GHOST" shape="PILL" decoration="NONE" shadow="NONE"
+                                            data-aid="CTA_RENDERED" href="#" target=""
+                                            data-tccl="ux2.POPUP.popup1.Button.Primary.107727.click,click"
+                                            id="popup-widget107726-cta" data-typography="ButtonAlpha"
+                                            class="x-el x-el-a c1-1 c1-2 c1-1c c1-6r c1-6n c1-12 c1-37 c1-15 c1-19 c1-1b c1-1a c1-26 c1-r c1-4 c1-4p c1-bq c1-y c1-z c1-br c1-bs c1-bt c1-bu c1-6p c1-bv c1-bw c1-bx c1-by c1-1t c1-2g c1-bz c1-75 c1-c0 c1-c1 c1-c2 c1-c3 c1-76 c1-77 c1-78 c1-79">Tamamdır!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="94aabcd9-9300-484c-b5e6-6628c8e3309c"
+                    class="widget widget-cookie-banner widget-cookie-banner-cookie-1">
+                    <div data-ux="Group" data-aid="FOOTER_COOKIE_BANNER_RENDERED"
+                        id="94aabcd9-9300-484c-b5e6-6628c8e3309c-banner"
+                        class="x-el x-el-div c1-1 c1-2 c1-3b c1-a2 c1-c4 c1-4 c1-59 c1-4d c1-c5 c1-5g c1-3e c1-c6 c1-c7 c1-c8 c1-c9 c1-2c c1-q c1-2d c1-p c1-2a c1-29 c1-2b c1-28 c1-96 c1-b c1-c c1-ca c1-cb c1-cc c1-a7 c1-cd c1-a8 c1-ce c1-d c1-e c1-f c1-g">
+                        <h4 role="heading" aria-level="4" data-ux="Heading" data-aid="FOOTER_COOKIE_TITLE_RENDERED"
+                            data-typography="HeadingDelta"
+                            class="x-el x-el-h4 c1-1 c1-2 c1-1a c1-1b c1-6l c1-28 c1-29 c1-2a c1-2b c1-z c1-b c1-cf c1-7y c1-2g c1-80 c1-81 c1-82 c1-83">
+                            Bu web sitesinde çerez kullanılır.</h4>
+                        <div data-ux="Text" data-aid="FOOTER_COOKIE_MESSAGE_RENDERED" data-typography="BodyAlpha"
+                            class="x-el c1-1 c1-2 c1-1a c1-1b c1-6v c1-2a c1-2b c1-6w c1-6x c1-6y c1-cg c1-70 c1-71 c1-72 c1-ch c1-3e c1-b c1-ci c1-c c1-2g c1-cj c1-d c1-e c1-f c1-g x-rt">
+                            <p style="margin:0"><span>Web sitesi trafiğini analiz etmek ve web sitesi deneyiminizi
+                                    optimize etmek amacıyla çerezler kullanıyoruz. Çerez kullanımımızı kabul
+                                    ettiğinizde, verileriniz tüm diğer kullanıcı verileriyle birlikte derlenir.</span>
+                            </p>
+                        </div>
+                        <div data-ux="Block" class="x-el x-el-div c1-1 c1-2 c1-11 c1-34 c1-b c1-c c1-d c1-e c1-f c1-g">
+                            <a data-ux-btn="primary" data-ux="ButtonPrimary" color="PRIMARY" fill="GHOST" shape="PILL"
+                                decoration="NONE" shadow="NONE" href="" data-aid="FOOTER_COOKIE_CLOSE_RENDERED"
+                                id="94aabcd9-9300-484c-b5e6-6628c8e3309c-accept" data-typography="ButtonAlpha"
+                                class="x-el x-el-a c1-1 c1-2 c1-11 c1-3n c1-37 c1-1c c1-9z c1-ck c1-cl c1-cm c1-5x c1-6r c1-12 c1-15 c1-19 c1-1b c1-1a c1-26 c1-r c1-4 c1-p c1-q c1-b6 c1-b8 c1-cn c1-bs c1-bt c1-co c1-6p c1-bv c1-bw c1-bx c1-by c1-1t c1-2g c1-bz c1-1u c1-cp c1-cq c1-cr c1-cs c1-c3 c1-1z c1-20 c1-21 c1-22"
+                                data-tccl="ux2.COOKIE_BANNER.cookie1.Group.Default.Button.Primary.107728.click,click">Kabul
+                                Et</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="cab62a07-7821-4f36-ac0e-1a11a650b245"
+                    class="widget widget-messaging widget-messaging-messaging-1">
+                    <div data-ux="Element" id="bs-4" class="x-el x-el-div c1-1 c1-2 c1-b c1-c c1-d c1-e c1-f c1-g">
+                        <div data-ux="Block"
+                            class="x-el x-el-div c1-1 c1-2 c1-3b c1-ct c1-cu c1-cv c1-cw c1-cx c1-b c1-c c1-d c1-cy c1-e c1-f c1-g">
+                            <div data-ux="Block" data-aid="MESSAGING_FAB" data-edit-interactive="true"
+                                data-traffic2="pandc.vnext.editor_preview.messaging_fab_open.click"
+                                data-tccl="ux2.messaging.fab.open,click"
+                                class="x-el x-el-div c1-1 c1-2 c1-11 c1-12 c1-37 c1-1c c1-4 c1-3d c1-ba c1-cz c1-d0 c1-d1 c1-b c1-c c1-d c1-e c1-f c1-g">
+                                <svg viewBox="0 0 24 24" fill="currentColor" width="44" height="44" data-ux="Icon"
+                                    class="x-el x-el-svg c1-1 c1-2 c1-d2 c1-1m c1-3q c1-b c1-c c1-d c1-e c1-f c1-g">
+                                    <g fill="currentColor">
+                                        <rect x="4" y="6" width="16" height="10.222" rx="1.129"></rect>
+                                        <path
+                                            d="M8.977 18.578l.2-2.722a.564.564 0 01.564-.523h3.61c.548 0 .774.705.327 1.024l-3.81 2.721a.564.564 0 01-.89-.5z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+        type="text/javascript">"IntersectionObserver" in window && "Intl" in window && "Locale" in window.Intl || document.write(`\x3Cscript src="https://img1.wsimg.com/poly/v3/polyfill.min.js?rum=0&unknown=polyfill&flags=gated&features=Intl.~locale.tr-TR">\x3C/script>`)</script>
+    <script src="//img1.wsimg.com/blobby/go/08bc4b76-758e-4e55-9027-34207345987f/gpub/2b1574fab353ae1e/script.js"
+        crossorigin></script>
+    <script src="//img1.wsimg.com/ceph-p3-01/website-builder-data-prod/static/widgets/UX.4.30.1.js"
+        crossorigin></script>
+    <script src="//img1.wsimg.com/blobby/go/08bc4b76-758e-4e55-9027-34207345987f/gpub/1cc60a284c42dffc/script.js"
+        crossorigin></script>
+    <script defer src="//img1.wsimg.com/traffic-assets/js/tccl.min.js" crossorigin></script>
+</body>
+
+</html>
